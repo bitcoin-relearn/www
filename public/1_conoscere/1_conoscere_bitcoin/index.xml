@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conoscere Bitcoin :: Bitcoin Relearn</title>
+    <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.html</link>
+    <description>Indice dei contenuti:&#xA;Introduzione</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduzione</title>
+      <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html</guid>
+      <description>Brief: Questo articolo ti aiuterà a capire cos’è bitcoin, perché è stato sviluppato e a familiarizzare con le basi del suo funzionamento.&#xA;Perchè è stato creato Bitcoin Nell’agosto 2008 è stato registrato il dominio bitcoin.org e a novembre dello stesso anno una persona misteriosa, tutt’oggi sconosciuta, ha pubblicato il famoso Bitcoin Whitepaper, firmato da Satoshi Nakamoto. I primi bitcoin sono stati emessi nel gennaio 2009.</description>
+    </item>
+  </channel>
+</rss>
