@@ -7,7 +7,7 @@ draft = false
 +++
 
 > [!important] Brief:
-> Questo articolo ti aiuterà a capire cos'è bitcoin, perché è stato sviluppato e a familiarizzare con le basi del suo funzionamento.
+> Questo articolo ti offre un'introduzione a bitcoin, al perché è stato sviluppato e a familiarizzare con i principi del suo funzionamento.
 
 ### Perchè è stato creato Bitcoin
 
