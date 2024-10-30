@@ -22,5 +22,5 @@ _Mattia_
 
 - Concetti di Base
 	- Conoscere Bitcoin
-		- [Introduzione](https://trama81.github.io/bitcoin/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html)
+		- [Introduzione](https://bitcoin-relearn.github.io/www/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html)
 
