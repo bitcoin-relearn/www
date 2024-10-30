@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
+                "file": "content/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
+                "file": "content/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
+                "file": "content/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md"
+                "file": "content/_index.md"
               },
               "icon": "lucide-list",
               "title": "Outline of _index"
@@ -173,32 +173,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77f8ef72ba55e574",
+  "active": "23fcec031c38afe6",
   "lastOpenFiles": [
-    "public/js/swagger-ui/swagger-ui.css",
-    "public/js/swagger-ui/swagger-ui-standalone-preset.js",
-    "public/js/swagger-ui/swagger-ui-bundle.js",
-    "public/js/swagger-ui",
-    "public/js/d3/d3-zoom.min.js",
-    "public/js/d3/d3-transition.min.js",
-    "public/js/d3/d3-timer.min.js",
-    "public/js/d3/d3-selection.min.js",
-    "public/js/d3/d3-interpolate.min.js",
-    "public/js/d3/d3-ease.min.js",
-    "public/js/d3/d3-drag.min.js",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen17.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen15.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen14.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen13.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen12.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen11.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen10.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen09.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen08.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen07.png",
-    "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
-    "content/_index.md",
-    "content/1_conoscere/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/_index.md"
+    "themes/hugo-theme-relearn/vscode-frontmatter/snippets.de.json",
+    "themes/hugo-theme-relearn/vscode-frontmatter/snippets.en.json",
+    "themes/hugo-theme-relearn/vscode-frontmatter",
+    "themes/hugo-theme-relearn/theme.toml",
+    "themes/hugo-theme-relearn/static/webfonts/fa-v4compatibility.woff2",
+    "themes/hugo-theme-relearn/static/webfonts/fa-v4compatibility.ttf",
+    "themes/hugo-theme-relearn/static/webfonts/fa-solid-900.woff2",
+    "themes/hugo-theme-relearn/static/webfonts/fa-solid-900.ttf",
+    "themes/hugo-theme-relearn/static/webfonts/fa-regular-400.woff2",
+    "themes/hugo-theme-relearn/static/webfonts/fa-regular-400.ttf",
+    "themes/hugo-theme-relearn/static/webfonts/fa-brands-400.woff2",
+    "themes/hugo-theme-relearn/static/images/favicon.svg",
+    "themes/hugo-theme-relearn/layouts/partials/initial.md",
+    "themes/hugo-theme-relearn/images/tn.png",
+    "themes/hugo-theme-relearn/images/screenshot.png",
+    "themes/hugo-theme-relearn/images/hero.png",
+    "themes/hugo-theme-relearn/exampleSite/static/images/logo.svg",
+    "themes/hugo-theme-relearn/exampleSite/content/tags/the-hidden/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/tags/the-hidden/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/tags/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/tags/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/showcase/poesieland.png",
+    "themes/hugo-theme-relearn/exampleSite/content/showcase/pamasol-electrics-portal.png",
+    "themes/hugo-theme-relearn/exampleSite/content/showcase/gobolinux.png",
+    "themes/hugo-theme-relearn/exampleSite/content/showcase/bits-train.png",
+    "themes/hugo-theme-relearn/exampleSite/content/showcase/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/showcase/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/children-1-1-1-1-1-1/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/children-1-1-1-1-1-1/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-3/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-3/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/_index.pir.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/_index.en.md",
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/attachments/index.en.files/hugo.png"
   ]
 }
