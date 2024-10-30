@@ -11,13 +11,14 @@
             "id": "77f8ef72ba55e574",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "public/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html",
-                "staged": true
+                "file": "content/_index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (index.html)"
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ]
@@ -174,10 +175,13 @@
   },
   "active": "77f8ef72ba55e574",
   "lastOpenFiles": [
+    "content/1_conoscere/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
     "content/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/src/Mastering_Bitcoin_IT.pdf",
     "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/src",
-    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/2_panoramica",
     "public/js/swagger-ui/swagger-ui.css",
     "public/js/swagger-ui/swagger-ui-standalone-preset.js",
@@ -196,9 +200,6 @@
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen09.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen08.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen07.png",
-    "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
-    "content/1_conoscere/_index.md",
     "README.md",
     "archetypes/default.md",
     "themes/hugo-theme-relearn/layouts/partials/initial.md",
