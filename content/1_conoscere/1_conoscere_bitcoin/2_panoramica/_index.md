@@ -90,5 +90,3 @@ Possedere bitcoin significa avere il controllo di una chiave privata che permett
 Tuttavia, non possiedi realmente “bitcoin fisici” sul tuo computer. Invece, possiedi una **chiave privata** legata al tuo indirizzo Bitcoin. Questa chiave privata è una sorta di “chiave digitale” segreta, che ti permette di firmare e autorizzare transazioni, spostando bitcoin dal tuo indirizzo a quello di qualcun altro.
 
 È importante proteggere la chiave privata, perché chiunque la possieda può accedere ai tuoi bitcoin e spenderli. Per questo motivo, gli utenti spesso utilizzano **wallet** (portafogli digitali) sicuri per conservare le loro chiavi private, garantendo che solo loro possano gestire i propri bitcoin.
-
-
