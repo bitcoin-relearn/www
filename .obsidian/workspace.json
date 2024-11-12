@@ -11,13 +11,14 @@
             "id": "138bc51720df3a35",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ]
@@ -172,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e60ae22f5a695d24",
+  "active": "138bc51720df3a35",
   "lastOpenFiles": [
+    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi",
     "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
@@ -197,7 +199,6 @@
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen07.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen06.png",
     "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
     "content/_index.md",
     "content/1_conoscere/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
