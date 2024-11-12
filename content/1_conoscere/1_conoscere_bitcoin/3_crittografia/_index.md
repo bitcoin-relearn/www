@@ -1,7 +1,7 @@
 +++
 title = 'Crittografia'
 author = 'Mattia'
-date = 2024-10-31
+date = 2024-11-12
 weight = 3
 draft = false
 +++
@@ -14,9 +14,9 @@ draft = false
 > Bitcoin utilizza la crittografia per proteggere le transazioni e garantire che solo i veri proprietari possano accedere e gestire i fondi. In pratica, la crittografia permette di dimostrare di possedere un "segreto" (la chiave privata) senza doverlo rivelare.
 > 
 > Per creare un sistema sicuro, Bitcoin si affida a vari algoritmi crittografici:
-> - **SHA-256**: un algoritmo di hashing che crea una sorta di "impronta digitale" unica e irreversibile per ogni insieme di dati, rendendo impossibile alterare le informazioni senza essere scoperti.
-> - **RIPEMD-160**: usato per ridurre le dimensioni degli indirizzi Bitcoin in modo compatto e pratico, ma mantenendo l'unicità e la sicurezza.
-> - **ECDSA**: un sistema per generare firme digitali. Serve a confermare che una transazione è stata autorizzata dalla persona giusta, senza rivelare la chiave privata.
+> - **SHA-256**: algoritmo di hashing che crea una sorta di "impronta digitale" unica e irreversibile per ogni insieme di dati, rendendo impossibile alterare le informazioni senza essere scoperti.
+> - **RIPEMD-160**: algoritmo usato per ridurre le dimensioni degli indirizzi Bitcoin in modo compatto e pratico, ma mantenendo l'unicità e la sicurezza.
+> - **ECDSA**: algoritmo usato per generare firme digitali. Serve a confermare che una transazione è stata autorizzata dalla persona giusta, senza rivelare la chiave privata.
 >
 > Grazie alla crittografia, Bitcoin può garantire transazioni sicure, anonime e immutabili, rendendolo affidabile anche senza autorità centrali.
 
