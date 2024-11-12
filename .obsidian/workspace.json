@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "bceb94689739ad8c",
+        "id": "d4292c700585ab39",
         "type": "tabs",
         "children": [
           {
-            "id": "77f8ef72ba55e574",
+            "id": "138bc51720df3a35",
             "type": "leaf",
             "state": {
               "type": "diff-view",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               },
               "icon": "git-pull-request",
-              "title": "Diff View (_index)"
+              "title": "Diff View (workspace.json)"
             }
           }
         ]
@@ -172,22 +172,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77f8ef72ba55e574",
+  "active": "e60ae22f5a695d24",
   "lastOpenFiles": [
-    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia",
-    "public/webfonts/fa-v4compatibility.woff2",
-    "public/webfonts/fa-v4compatibility.ttf",
-    "public/webfonts/fa-solid-900.woff2",
-    "public/webfonts/fa-solid-900.ttf",
-    "public/webfonts/fa-regular-400.woff2",
-    "public/webfonts/fa-regular-400.ttf",
-    "public/webfonts/fa-brands-400.woff2",
-    "public/webfonts/fa-brands-400.ttf",
-    "public/webfonts",
-    "public/images/favicon.svg",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen17.png",
+    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+    "public/index.html",
+    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html",
+    "public/1_conoscere/1_conoscere_bitcoin/index.html",
+    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione",
+    "public/1_conoscere/index.html",
+    "public/1_conoscere/1_conoscere_bitcoin",
+    "public/1_conoscere",
+    "public/js/swagger-ui/swagger-ui.css",
+    "public/js/swagger-ui/swagger-ui-standalone-preset.js",
+    "public/js/swagger-ui/swagger-ui-bundle.js",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen15.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen14.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen13.png",
@@ -196,6 +194,9 @@
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen10.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen09.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen08.png",
+    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen07.png",
+    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen06.png",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/_index.md",
     "content/_index.md",
     "content/1_conoscere/_index.md",
@@ -217,7 +218,6 @@
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.en.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.pir.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.en.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.en.md"
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.pir.md"
   ]
 }
