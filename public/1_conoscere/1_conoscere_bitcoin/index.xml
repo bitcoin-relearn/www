@@ -6,7 +6,7 @@
     <description>Indice dei contenuti:&#xA;Introduzione Panoramica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduzione</title>
@@ -21,6 +21,13 @@
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html</guid>
       <description>Brief: Questa sezione ti offre una panoramica per capire che cosa è bitcoin e che cosa sono i termini ad esso correlati.&#xA;Con parole semplici Che cosa è bitcoin Bitcoin è un software che consente di inviare e ricevere pagamenti digitali senza intermediari come banche, grazie a un registro condiviso chiamato blockchain. La blockchain è un registro che contiene tutte le transazioni che avvengono sulla rete Bitcoin, aggiornato ogni 10 minuti attraverso un processo chiamato mining, che previene il problema della doppia spesa.</description>
+    </item>
+    <item>
+      <title>Crittografia</title>
+      <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html</guid>
+      <description>Brief: Questa sezione ti aiuterà a capire cos’è la crittografia e perchè è un concetto fondamentale per bitcoin e per la blockchain.&#xA;Con parole semplici Che cosa è la crittografia Bitcoin utilizza la crittografia per proteggere le transazioni e garantire che solo i veri proprietari possano accedere e gestire i fondi. In pratica, la crittografia permette di dimostrare di possedere un “segreto” (la chiave privata) senza doverlo rivelare.</description>
     </item>
   </channel>
 </rss>

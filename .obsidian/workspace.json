@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.md",
+                "file": "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -176,16 +176,21 @@
   "active": "77f8ef72ba55e574",
   "lastOpenFiles": [
     "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
+    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.xml",
+    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html",
+    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia",
+    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia",
+    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
+    "content/_index.md",
+    "content/1_conoscere/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/src/Mastering_Bitcoin_IT.pdf",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/src",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica",
     "public/js/swagger-ui/swagger-ui.css",
     "public/js/swagger-ui/swagger-ui-standalone-preset.js",
     "public/js/swagger-ui/swagger-ui-bundle.js",
-    "public/js/swagger-ui",
-    "public/js/d3/d3-zoom.min.js",
-    "public/js/d3/d3-transition.min.js",
-    "public/js/d3/d3-timer.min.js",
-    "public/js/d3/d3-selection.min.js",
-    "public/js/d3/d3-ease.min.js",
-    "public/js/d3/d3-interpolate.min.js",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen17.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen15.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen14.png",
@@ -196,10 +201,6 @@
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen09.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen08.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen07.png",
-    "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
-    "content/1_conoscere/_index.md",
-    "content/_index.md",
     "README.md",
     "archetypes/default.md",
     "themes/hugo-theme-relearn/layouts/partials/initial.md",
@@ -218,7 +219,6 @@
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.pir.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.en.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.en.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-3/_index.pir.md"
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.en.md"
   ]
 }
