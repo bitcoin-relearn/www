@@ -174,8 +174,9 @@
   },
   "active": "e60ae22f5a695d24",
   "lastOpenFiles": [
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi",
+    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
     "public/index.html",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html",
     "public/1_conoscere/1_conoscere_bitcoin/index.html",
@@ -185,7 +186,6 @@
     "public/1_conoscere",
     "public/js/swagger-ui/swagger-ui.css",
     "public/js/swagger-ui/swagger-ui-standalone-preset.js",
-    "public/js/swagger-ui/swagger-ui-bundle.js",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen15.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen14.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen13.png",
