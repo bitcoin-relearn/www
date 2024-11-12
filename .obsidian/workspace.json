@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+                "file": "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -175,8 +175,6 @@
   },
   "active": "138bc51720df3a35",
   "lastOpenFiles": [
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
     "public/js/swagger-ui/swagger-ui.css",
     "public/js/swagger-ui/swagger-ui-standalone-preset.js",
     "public/js/swagger-ui/swagger-ui-bundle.js",
@@ -187,6 +185,8 @@
     "public/js/d3/d3-selection.min.js",
     "public/js/d3/d3-interpolate.min.js",
     "public/js/d3/d3-ease.min.js",
+    "public/js/d3/d3-drag.min.js",
+    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen17.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen15.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen14.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen13.png",
@@ -196,13 +196,15 @@
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen09.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen08.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen07.png",
-    "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen06.png",
-    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
     "content/_index.md",
     "content/1_conoscere/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
     "README.md",
+    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
     "archetypes/default.md",
     "themes/hugo-theme-relearn/layouts/partials/initial.md",
     "themes/hugo-theme-relearn/exampleSite/content/tags/the-hidden/_index.pir.md",
@@ -218,7 +220,6 @@
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.pir.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.en.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.en.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/_index.pir.md"
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.en.md"
   ]
 }
