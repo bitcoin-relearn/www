@@ -11,13 +11,17 @@
             "id": "138bc51720df3a35",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "canvas",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/_index.md",
-                "staged": true
+                "file": "SiteMap.canvas",
+                "viewState": {
+                  "x": 260.2522169600908,
+                  "y": 754.3332442794402,
+                  "zoom": -1.2000000000000002
+                }
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (_index)"
+              "icon": "lucide-layout-dashboard",
+              "title": "SiteMap"
             }
           }
         ]
@@ -174,6 +178,10 @@
   },
   "active": "138bc51720df3a35",
   "lastOpenFiles": [
+    "README.md",
+    "SiteMap.canvas",
+    "themes/hugo-theme-relearn/CHANGELOG.md",
+    "themes/hugo-theme-relearn/README.md",
     "content/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/src/digital_signature_process.png",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/src",
@@ -197,7 +205,6 @@
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen09.png",
     "public/1_conoscere/1_conoscere_bitcoin/1_introduzione/img/screen08.png",
     "content/1_conoscere/_index.md",
-    "README.md",
     "content/1_conoscere/1_conoscere_bitcoin/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
@@ -216,8 +223,6 @@
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.pir.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/_index.en.md",
     "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.en.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-1/_index.en.md"
+    "themes/hugo-theme-relearn/exampleSite/content/shortcodes/children/children-1/children-1-1/children-1-1-2/children-1-1-2-2/_index.en.md"
   ]
 }
