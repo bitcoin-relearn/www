@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firma digitale :: Bitcoin Relearn</title>
+    <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html</link>
+    <description>Brief: Questa sezione ti aiuterà a capire cos’è la firma digitale e che ruolo gioca nelle transazioni.&#xA;Con parole semplici Titolo jgbfkjbhfhbifhrtgrtgtrgrrtgrtgrtgrtg&#xA;Che cosa è la firma digitale? Quando si effettua una transazione di Bitcoin, entra in gioco la firma digitale, che è un meccanismo crittografico che consente alla rete di confermare che chi invia i fondi è effettivamente il legittimo proprietario, proteggendo allo stesso tempo la segretezza della chiave privata.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
