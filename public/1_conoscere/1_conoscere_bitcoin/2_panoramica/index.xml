@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panoramica :: Bitcoin Relearn</title>
+    <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html</link>
+    <description>Brief: Questa sezione ti offre una panoramica per capire che cosa è bitcoin e che cosa sono i termini ad esso correlati.&#xA;Con parole semplici Che cosa è bitcoin Bitcoin è un software che consente di inviare e ricevere pagamenti digitali senza intermediari come banche, grazie a un registro condiviso chiamato blockchain. La blockchain è un registro che contiene tutte le transazioni che avvengono sulla rete Bitcoin, aggiornato ogni 10 minuti attraverso un processo chiamato mining, che previene il problema della doppia spesa.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

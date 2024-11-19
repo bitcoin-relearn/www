@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fondamenti :: Bitcoin Relearn</title>
+    <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.html</link>
+    <description>Indice dei contenuti:&#xA;Introduzione Panoramica Crittografia Chiavi e Indirizzi Firma digitale</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduzione</title>
+      <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html</guid>
+      <description>Brief: Questo articolo ti offre un’introduzione a bitcoin, al perché è stato sviluppato e a familiarizzare con i principi del suo funzionamento.&#xA;Perchè è stato creato Bitcoin Nell’agosto 2008 è stato registrato il dominio bitcoin.org e a novembre dello stesso anno una persona misteriosa, tutt’oggi sconosciuta, ha pubblicato il famoso Bitcoin Whitepaper, firmato da Satoshi Nakamoto. I primi bitcoin sono stati emessi nel gennaio 2009.</description>
+    </item>
+    <item>
+      <title>Panoramica</title>
+      <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html</guid>
+      <description>Brief: Questa sezione ti offre una panoramica per capire che cosa è bitcoin e che cosa sono i termini ad esso correlati.&#xA;Con parole semplici Che cosa è bitcoin Bitcoin è un software che consente di inviare e ricevere pagamenti digitali senza intermediari come banche, grazie a un registro condiviso chiamato blockchain. La blockchain è un registro che contiene tutte le transazioni che avvengono sulla rete Bitcoin, aggiornato ogni 10 minuti attraverso un processo chiamato mining, che previene il problema della doppia spesa.</description>
+    </item>
+    <item>
+      <title>Crittografia</title>
+      <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html</guid>
+      <description>Brief: Questa sezione ti aiuterà a capire cos’è la crittografia e perchè è un concetto fondamentale per bitcoin e per la blockchain.&#xA;Con parole semplici Che cosa è la crittografia Bitcoin utilizza la crittografia per proteggere le transazioni e garantire che solo i veri proprietari possano accedere e gestire i fondi. In pratica, la crittografia permette di dimostrare di possedere un “segreto” (la chiave privata) senza doverlo rivelare.</description>
+    </item>
+    <item>
+      <title>Chiavi e indirizzi</title>
+      <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html</guid>
+      <description>Brief: Questa sezione ti aiuterà a capire cosa sono le chiavi private, le chiavi pubbliche, gli indirizzi e che relazioni ci sono tra loro.&#xA;Con parole semplici Immagina una cassetta delle lettere Per capire questi concetti, immagina di avere una cassetta delle lettere, in cui è presente una fessura di ingresso (chiave pubblica) ed una serratura (chiave privata). Ecco come funziona:</description>
+    </item>
+    <item>
+      <title>Firma digitale</title>
+      <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html</guid>
+      <description>Brief: Questa sezione ti aiuterà a capire cos’è la firma digitale e che ruolo gioca nelle transazioni.&#xA;Con parole semplici Titolo Testo&#xA;Che cosa è la firma digitale? Quando si effettua una transazione di Bitcoin, entra in gioco la firma digitale, che è un meccanismo crittografico che consente alla rete di confermare che chi invia i fondi è effettivamente il legittimo proprietario, proteggendo allo stesso tempo la segretezza della chiave privata.</description>
+    </item>
+  </channel>
+</rss>

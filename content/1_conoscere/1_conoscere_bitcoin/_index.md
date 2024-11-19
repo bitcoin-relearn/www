@@ -1,5 +1,5 @@
 +++
-title = 'Conoscere Bitcoin'
+title = 'Fondamenti'
 weight = 1
 draft = false
 +++
