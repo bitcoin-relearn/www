@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/1_conoscere/index.html</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.html</loc>
@@ -13,12 +13,12 @@
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/index.html</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/index.html</loc>
-    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html</loc>
+    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html</loc>
@@ -33,16 +33,16 @@
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html</loc>
-    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
-  </url>
-  <url>
     <loc>//localhost:1313/index.html</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/categories/index.html</loc>
