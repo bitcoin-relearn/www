@@ -5,31 +5,23 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.135.0">
     <meta name="generator" content="Relearn 6.4.0+tip">
-    <meta name="description" content="Brief: Questa sezione ti aiuterà a capire cosa sono le chiavi private, le chiavi pubbliche, gli indirizzi e che relazioni ci sono tra loro.
-Con parole semplici Immagina una cassetta delle lettere Per capire questi concetti, immagina di avere una cassetta delle lettere, in cui è presente una fessura di ingresso (chiave pubblica) ed una serratura (chiave privata). Ecco come funziona:">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="&lt;!DOCTYPE html&gt; Calcolo SHA-256 Algoritmo SHA-256 Inserisci il testo: Hash SHA-256:">
     <meta name="author" content="Mattia">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="//localhost:1313/images/hero.png">
-    <meta name="twitter:title" content="Chiavi e indirizzi :: Bitcoin Relearn">
-    <meta name="twitter:description" content="Brief: Questa sezione ti aiuterà a capire cosa sono le chiavi private, le chiavi pubbliche, gli indirizzi e che relazioni ci sono tra loro.
-Con parole semplici Immagina una cassetta delle lettere Per capire questi concetti, immagina di avere una cassetta delle lettere, in cui è presente una fessura di ingresso (chiave pubblica) ed una serratura (chiave privata). Ecco come funziona:">
-    <meta property="og:url" content="//localhost:1313/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html">
+    <meta name="twitter:description" content="&lt;!DOCTYPE html&gt; Calcolo SHA-256 Algoritmo SHA-256 Inserisci il testo: Hash SHA-256:">
+    <meta property="og:url" content="//localhost:1313/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256/index.html">
     <meta property="og:site_name" content="Bitcoin Relearn">
-    <meta property="og:title" content="Chiavi e indirizzi :: Bitcoin Relearn">
-    <meta property="og:description" content="Brief: Questa sezione ti aiuterà a capire cosa sono le chiavi private, le chiavi pubbliche, gli indirizzi e che relazioni ci sono tra loro.
-Con parole semplici Immagina una cassetta delle lettere Per capire questi concetti, immagina di avere una cassetta delle lettere, in cui è presente una fessura di ingresso (chiave pubblica) ed una serratura (chiave privata). Ecco come funziona:">
+    <meta property="og:description" content="&lt;!DOCTYPE html&gt; Calcolo SHA-256 Algoritmo SHA-256 Inserisci il testo: Hash SHA-256:">
     <meta property="og:locale" content="en_us">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Conoscere">
     <meta property="og:image" content="//localhost:1313/images/hero.png">
-    <meta itemprop="name" content="Chiavi e indirizzi :: Bitcoin Relearn">
-    <meta itemprop="description" content="Brief: Questa sezione ti aiuterà a capire cosa sono le chiavi private, le chiavi pubbliche, gli indirizzi e che relazioni ci sono tra loro.
-Con parole semplici Immagina una cassetta delle lettere Per capire questi concetti, immagina di avere una cassetta delle lettere, in cui è presente una fessura di ingresso (chiave pubblica) ed una serratura (chiave privata). Ecco come funziona:">
-    <meta itemprop="datePublished" content="2024-11-12T00:00:00+00:00">
-    <meta itemprop="dateModified" content="2024-11-12T00:00:00+00:00">
-    <meta itemprop="wordCount" content="1536">
+    <meta itemprop="description" content="&lt;!DOCTYPE html&gt; Calcolo SHA-256 Algoritmo SHA-256 Inserisci il testo: Hash SHA-256:">
+    <meta itemprop="wordCount" content="11">
     <meta itemprop="image" content="//localhost:1313/images/hero.png">
-    <title>Chiavi e indirizzi :: Bitcoin Relearn</title>
-    <link href="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.xml" rel="alternate" type="application/rss+xml" title="Chiavi e indirizzi :: Bitcoin Relearn">
+    <title></title>
     <link href="/images/favicon.svg" rel="icon" type="image/svg+xml">
     <link href="/css/fontawesome-all.min.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css" rel="stylesheet">
@@ -44,8 +36,8 @@ Con parole semplici Immagina una cassetta delle lettere Per capire questi concet
     <script src="/js/variant.js"></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.relBasePath='..\/..\/..';
-      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.relBasePath='..\/..\/..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..\/..';
       window.relearn.absBaseUri='\/\/localhost:1313';
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
@@ -62,7 +54,7 @@ Con parole semplici Immagina una cassetta delle lettere Per capire questi concet
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
   </head>
-  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html">
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -73,32 +65,7 @@ Con parole semplici Immagina una cassetta delle lettere Per capire questi concet
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"><nav class="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#chiave-privata">Chiave privata</a></li>
-        <li><a href="#chiave-pubblica">Chiave pubblica</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#indirizzi-bitcoin">Indirizzi bitcoin</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+                <div class="topbar-content-wrapper"> 
                 </div>
               </div>
             </div>
@@ -106,12 +73,12 @@ Con parole semplici Immagina una cassetta delle lettere Per capire questi concet
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/1_conoscere/index.html"><span itemprop="name">Conoscere</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/1_conoscere/1_conoscere_bitcoin/index.html"><span itemprop="name">Fondamenti</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Chiavi e indirizzi</span><meta itemprop="position" content="3"></li>
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html"><span itemprop="name">Crittografia</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html" title="Crittografia (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html" title="Firma digitale (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html" title="Chiavi e indirizzi (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -131,147 +98,81 @@ Con parole semplici Immagina una cassetta delle lettere Per capire questi concet
             <header class="headline">
             </header>
 
-<h1 id="chiavi-e-indirizzi">Chiavi e indirizzi</h1>
+<h1 id=""></h1>
 
-<div class="box notices cstyle important">
-  <div class="box-label">
-    <i class="fa-fw fas fa-bolt"></i> Brief:
-  </div>
-  <div class="box-content">
-<p>Questa sezione ti aiuterà a capire cosa sono le chiavi private, le chiavi pubbliche, gli indirizzi e che relazioni ci sono tra loro.</p>
-  </div>
-</div>
-<div class="expand box notices cstyle tip">
-  <input type="checkbox" id="R-expand-a5ba3827e0ea61786e1f3fe165446afc" aria-controls="R-expandcontent-a5ba3827e0ea61786e1f3fe165446afc" checked>
-  <label class="expand-label box-label" for="R-expand-a5ba3827e0ea61786e1f3fe165446afc">
-    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
-    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <i class="fa-fw fas fa-lightbulb"></i> Con parole semplici
-  </label>
-  <div class="box-spacer"></div>
-  <div id="R-expandcontent-a5ba3827e0ea61786e1f3fe165446afc" class="box-content expand-content">
-<p><h5 id="immagina-una-cassetta-delle-lettere">Immagina una cassetta delle lettere</h5>
-<p>Per capire questi concetti, immagina di avere una cassetta delle lettere, in cui è presente una fessura di ingresso (chiave pubblica) ed una serratura (chiave privata).
-Ecco come funziona:</p>
-<ul>
-<li><strong>Chiave pubblica</strong>: è la chiave che puoi dare a chiunque, di modo che chiunque possa inserire dei bitocin nella tua cassetta, ma non può aprirla.</li>
-<li><strong>Chiave privata</strong>: è la chiave segreta che solo tu possiedi. Serve per aprire la cassetta e prendere i tuoi bitcoin. Se qualcun altro avesse questa chiave, potrebbe rubare tutto!</li>
-</ul>
-<h5 id="come-si-creano-le-chiavi">Come si creano le chiavi?</h5>
-<ul>
-<li>La <strong>chiave privata</strong> viene generata per prima. È come se tu creassi una password segreta super lunga e complessa. Questa chiave privata è unica e quasi impossibile da indovinare; è così importante che devi custodirla con estrema attenzione.</li>
-<li>La <strong>chiave pubblica</strong> è creata a partire dalla chiave privata, grazie a una specie di &ldquo;trucchetto matematico&rdquo;. Anche se chiunque può vedere la tua chiave pubblica, non può risalire alla tua chiave privata.</li>
-</ul>
-<h5 id="e-gli-indirizzi">E gli indirizzi?</h5>
-<p>Ora, immagina che qualcuno spii quante persone mettono qualcosa nella tua cassetta e veda quanti bitcoin ricevi. Per evitarlo, puoi fornire a ciascuno un indirizzo diverso, come se fossero punti di consegna sparsi ovunque, non riconducibili alla tua cassetta principale. Così, tutto ciò che ricevi sarà sempre tuo, ma nessuno potrà spiarti.</p>
-<h5 id="non-perdere-la-chiave-privata">Non perdere la chiave privata!</h5>
-<p>Un dettaglio fondamentale: se perdi la tua chiave privata, è come se avessi perso la chiave della tua cassetta per sempre e nessuno potrà più aprirla. Quindi, custodisci la chiave privata con cura, in un luogo sicuro, dove nessun altro può accedervi!</p>
-  </div>
-</div>
-<h1 id="chiavi">Chiavi</h1>
-<h3 id="chiave-privata">Chiave privata</h3>
-<p>La chiave privata è una sequenza di numeri e lettere che funge da password segreta per autorizzare le transazioni e quindi per spendere tuoi fondi. Chi possiede la chiave privata ha il pieno controllo sui bitcoin associati a quella chiave.</p>
-<p>La generazione di una chiave privata utilizza il concetto di <strong>entropia</strong> (è il grado di casualità in un sistema) per creare una stringa di numeri completamente imprevedibile. Questo è fondamentale per garantire che ogni chiave sia unica e impossibile da indovinare o replicare.</p>
-<pre class="mermaid align-center ">---
-title:
----
-graph LR;
-  A(Entropia)  --&gt; | n = 1158 * 10⁷⁷ | B(Algoritmo SHA256)
-  B(Algoritmo SHA256) --&gt; |n = 256 bit| C(Chiave privata)</pre>
-<p>Fonti comuni di entropia includono:</p>
-<ul>
-<li><strong>Generatori di numeri casuali</strong>: I software di portafogli usano algoritmi avanzati per produrre numeri casuali, combinati e trasformati in una chiave privata.</li>
-<li><strong>Interazione dell&rsquo;utente</strong>: In alcuni casi, la casualità può essere aumentata dall&rsquo;interazione dell&rsquo;utente, ad esempio muovendo il mouse o lanciando dei dadi, per aggiungere ulteriore imprevedibilità.</li>
-</ul>
-<p>La chiave privata di Bitcoin è un numero molto grande, compreso tra 1 e 2²⁵⁶ (circa 10⁷⁷). Questo intervallo garantisce che ci siano un&rsquo;infinità di possibili chiavi private, rendendo praticamente impossibile generare per errore due chiavi uguali.</p>
-<p>Per semplificare l&rsquo;uso di queste chiavi, vengono spesso rappresentate in <strong>formato esadecimale</strong> (utilizzando cifre da 0 a 9 e lettere da A a F). Un esempio di chiave privata in formato esadecimale potrebbe essere:</p>
-<div class="highlight wrap-code"><pre tabindex="0"><code>5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF</code></pre></div>
-<p>Poiché ricordare una stringa lunga di caratteri alfanumerici è difficile, la chiave privata viene convertita in una sequenza di 12 o 24 parole semplici da ricordare, chiamata <strong>seed phrase</strong> o frase seme. Questa frase viene generata attraverso lo standard <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt" rel="external" target="_self"><strong>BIP-39</strong></a>, che assegna una lista di parole predefinite a diversi segmenti della chiave privata. Ad esempio, una seed phrase potrebbe essere:</p>
-<div class="highlight wrap-code"><pre tabindex="0"><code>arena soldier album virus drift charge tree unveil follow poet lucky fashion</code></pre></div>
-<p>Questa serie di parole è un modo più umano e sicuro di gestire la chiave privata, poiché è più facile da memorizzare o annotare rispetto alla sequenza esadecimale. La frase seme può essere usata per ricostruire la chiave privata in qualsiasi portafoglio compatibile.</p>
-<p>Alcuni portafogli offrono un ulteriore livello di sicurezza, consentendo di proteggere la frase seme con una <strong>passphrase</strong> aggiuntiva, creando un ulteriore strato di sicurezza. In questo modo, anche se la tua chiave venisse esposta, sarebbe inutilizzabile senza la passphrase corretta.</p>
-<p>La chiave privata è il cuore del sistema Bitcoin, poiché consente l&rsquo;accesso ai fondi e l&rsquo;autorizzazione delle transazioni. Se qualcuno dovesse ottenerla, potrebbe trasferire i tuoi bitcoin senza il tuo consenso, e poiché non esistono meccanismi per recuperare i fondi rubati, la sicurezza dei tuoi bitcoin dipende interamente da quanto bene riesci a proteggere la tua chiave privata. Se la perdi, perdi anche l&rsquo;accesso ai tuoi bitcoin, poiché non esiste un sistema centralizzato che possa ripristinarla. L&rsquo;unico modo per recuperarla è tramite la <em>seed phrase</em>.</p>
-<h3 id="chiave-pubblica">Chiave pubblica</h3>
-<p>La <strong>chiave pubblica</strong> è un elemento essenziale per garantire la sicurezza e la trasparenza delle transazioni. Si tratta di una stringa alfanumerica generata dalla chiave privata, che consente di ricevere bitcoin e verificare le transazioni senza compromettere la sicurezza dei fondi.</p>
-<p>Svolge due ruoli principali:</p>
-<ol>
-<li>
-<p><strong>Ricezione di fondi</strong>: quando qualcuno vuole inviarti bitcoin, entra in gioco la tua chiave pubblica, che viene trasformata in un <strong>indirizzo Bitcoin</strong> da fornire al mittente per semplificare e rendere più sicuro l&rsquo;invio dei fondi.</p>
-</li>
-<li>
-<p><strong>Verifica delle transazioni</strong>: permette di autenticare l&rsquo;origine dei fondi e di garantire che solo il legittimo proprietario della chiave privata possa autorizzare il movimento dei bitcoin.</p>
-</li>
-</ol>
-<p>La chiave pubblica viene calcolata a partire dalla chiave privata utilizzando la <em>crittografia asimmetrica</em> (moltiplicazione delle curve ellittiche), che rende irreversibile questa operazione.</p>
-<pre class="mermaid align-center ">---
-title:
----
-graph LR;
-  A(Chiave privata)   --&gt; | n = 256 bit | B(Elliptic Curve Multiplication)
-  B(Elliptic curve multiplication) --&gt; | K = k * G | C(Chiave pubblica) </pre>
-<dl>
-<dt>dove:</dt>
-<dd>k = chiave privata</dd>
-<dd>K = chiave pubblica risultante</dd>
-<dd>G = punto di generazione della curva ellittica</dd>
-</dl>
-<p>La chiave pubblica così generata identifica univocamente il beneficiario senza rivelarne l&rsquo;anagrafica e può essere condivisa con chiunque, sapendo che nessuno può invertire la funzione e risalire alla chiave privata. Se però qualcuno riuscisse a collegare la tua chiave pubblica alla tua identità reale, potrebbe monitorare sulla blockchain tutte le tue transazioni e risalire al tuo saldo associato a quella chiave pubblica, violando la tua privacy. Per questo motivo, è doveroso adottare pratiche di sicurezza aggiuntive, come creare nuovi indirizzi bitcoin per ogni transazione.</p>
-<hr>
-<h1 id="indirizzi">Indirizzi</h1>
-<h3 id="indirizzi-bitcoin">Indirizzi bitcoin</h3>
-<p>Gli <strong>indirizzi Bitcoin</strong> sono un elemento cruciale per inviare e ricevere fondi nella rete Bitcoin. Agiscono come un numero di conto, ma in modo decentralizzato e sicuro, permettendo di ricevere bitcoin senza rivelare informazioni sensibili. Esistono diversi tipi di indirizzi Bitcoin, ciascuno con caratteristiche specifiche che si sono evolute nel tempo per migliorare la sicurezza, l’efficienza e l’usabilità della rete. Utilizzare correttamente gli indirizzi e adottare le misure di sicurezza appropriate è essenziale per proteggere i tuoi fondi e la tua privacy.</p>
-<p>Gli indirizzi Bitcoin vengono generati dalla chiave pubblica, attraverso una funzione di hashing crittografica.</p>
-<pre class="mermaid align-center ">---
-title:
----
-graph LR;
-  A(Chiave pubblica)    --&gt; B(SHA256 &amp; RIPEMD160)
-  B(SHA256 &amp; RIPEMD160) --&gt; |K = 160 bit| C(Hash chiave pubblica)</pre>
-<p>L&rsquo;hash della chiave pubblica viene poi compressa in una forma più breve e facile da usare e può essere ulteriormente elaborata in differenti tipologie di indirizzi bitcoin:</p>
-<pre class="mermaid align-center ">---
-title:
----
-graph LR;
-A(Hash chiave pubblica) --&gt; B(Base58Check)
-B(Base58Check)          --&gt; |A = 26-35 char| C(Indirizzo bitcoin)</pre>
-<ol>
-<li>
-<p><strong>Indirizzi P2PKH (Pay-to-PubKey-Hash)</strong>:</p>
-<ul>
-<li>Prefisso: Cominciano con il numero <code>1</code>.</li>
-<li>Descrizione: Sono il tipo più tradizionale e uno dei primi formati utilizzati nel protocollo Bitcoin.</li>
-<li>Caratteristiche: Gli indirizzi P2PKH richiedono che una transazione venga firmata con una chiave privata corrispondente alla chiave pubblica hashata. Questo tipo di indirizzo è ampiamente supportato da tutti i wallet e gli exchange.</li>
-<li>Esempio: <code>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Indirizzi P2SH (Pay-to-Script-Hash)</strong>:</p>
-<ul>
-<li>Prefisso: Cominciano con il numero <code>3</code>.</li>
-<li>Descrizione: Introdotti con Bitcoin Improvement Proposal (BIP) 16 nel 2012, gli indirizzi P2SH sono stati creati per permettere l&rsquo;uso di script Bitcoin più complessi, come portafogli multi-firma o condizioni di spesa personalizzate.</li>
-<li>Caratteristiche Piuttosto che verificare direttamente la chiave pubblica, questi indirizzi richiedono l&rsquo;esecuzione di uno script associato alla transazione, che permette di implementare funzionalità come le transazioni multi-firma.</li>
-<li>Esempio: <code>3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Indirizzi Bech32 (SegWit)</strong>:</p>
-<ul>
-<li>Prefisso: Cominciano con <code>bc1</code>.</li>
-<li>Descrizione Introdotti nel 2017 con l&rsquo;aggiornamento SegWit (Segregated Witness), proposto in BIP 173, questi indirizzi sono progettati per migliorare l&rsquo;efficienza delle transazioni Bitcoin.</li>
-<li>Caratteristiche: Gli indirizzi Bech32 riducono il peso delle transazioni, rendendo le commissioni più economiche e migliorando la velocità delle transazioni. Inoltre, migliorano la sicurezza grazie a un formato che riduce il rischio di errori umani nella digitazione degli indirizzi.</li>
-<li>Esempio: <code>bc1qw508d6qejxtdg4y5r3zarvaryvg6kdaj</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Indirizzi Taproot (Bech32m)</strong>:</p>
-<ul>
-<li>Prefisso Cominciano con <code>bc1p</code>.</li>
-<li>Descrizione: Introdotti nel novembre 2021 con l&rsquo;aggiornamento Taproot, questi indirizzi utilizzano il formato Bech32m, che è un miglioramento delle funzionalità esistenti per supportare nuove tipologie di firme e smart contract.</li>
-<li>Caratteristiche: Gli indirizzi Taproot migliorano la privacy e l&rsquo;efficienza delle transazioni complesse, come quelle multi-firma o che richiedono condizioni specifiche di spesa. Consentono inoltre di raggruppare diverse condizioni in una singola chiave pubblica, riducendo i dati rivelati sulla blockchain.</li>
-<li>Esempio: <code>bc1p4za7ax9zq0gw4s4jr4k8m6q3w0jf6l7c30a</code>.</li>
-</ul>
-</li>
-</ol>
-<p>Anche se un indirizzo bitcoin è visibile pubblicamente sulla blockchain, non è direttamente collegato ad una persona specifica, il che garantisce un alto grado di anonimato. Tuttavia, se un indirizzo viene riutilizzato frequentemente e collegato ad un&rsquo;identità, può essere possibile tracciare le transazioni e compromettere la privacy dell&rsquo;utente. Per questo motivo, è una pratica comune creare nuovi indirizzi per ogni transazione.</p>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo SHA-256</title>
+    <!-- Link a Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #343a40;
+            color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #495057;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+        #inputText, #outputHash {
+            background-color: #212529;
+            color: #f8f9fa;
+            border: 1px solid #6c757d;
+        }
+        #outputHash {
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mb-4">Algoritmo SHA-256</h2>
+        <div class="mb-3">
+            <label for="inputText" class="form-label">Inserisci il testo:</label>
+            <input type="text" id="inputText" class="form-control" placeholder="Inserisci qui il testo">
+        </div>
+        <div class="mb-3">
+            <label for="outputHash" class="form-label">Hash SHA-256:</label>
+            <textarea id="outputHash" class="form-control" rows="2" readonly placeholder="L'hash apparirà qui"></textarea>
+        </div>
+    </div>
+
+    <script>
+        async function calculateSHA256(text) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(text);
+
+            // Calcola l'hash SHA-256
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+            // Mostra il risultato
+            document.getElementById('outputHash').value = hashHex;
+        }
+
+        // Aggiungi un event listener all'input di testo per calcolare l'hash ad ogni modifica
+        document.getElementById('inputText').addEventListener('input', (event) => {
+            calculateSHA256(event.target.value);
+        });
+    </script>
+
+    <!-- Link a Bootstrap JS (opzionale) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
 
             <footer class="footline">
             </footer>
@@ -366,8 +267,9 @@ B(Base58Check)          --&gt; |A = 26-35 char| C(Indirizzo bitcoin)</pre>
           <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/index.html" class="parent alwaysopen"><input type="checkbox" id="R-section-0381074eefd9f2ce8ef850bfa415fd4b" aria-controls="R-subsections-0381074eefd9f2ce8ef850bfa415fd4b" checked><label for="R-section-0381074eefd9f2ce8ef850bfa415fd4b"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Fondamenti</span></label><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/index.html">Fondamenti</a><ul id="R-subsections-0381074eefd9f2ce8ef850bfa415fd4b" class="morespace collapsible-menu">
           <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html">Introduzione</a></li>
           <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html">Panoramica</a></li>
-          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html">Crittografia</a></li>
-          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html" class="active"><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html">Chiavi e indirizzi</a></li>
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html" class="parent alwaysopen"><input type="checkbox" id="R-section-7f2c9390f0ad027cfac951873a79411d" aria-controls="R-subsections-7f2c9390f0ad027cfac951873a79411d" checked><label for="R-section-7f2c9390f0ad027cfac951873a79411d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Crittografia</span></label><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html">Crittografia</a><ul id="R-subsections-7f2c9390f0ad027cfac951873a79411d" class="morespace collapsible-menu">
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256/index.html" class="active"><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256/index.html"></a></li></ul></li>
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html">Chiavi e indirizzi</a></li>
           <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html">Firma digitale</a></li></ul></li>
           <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/index.html" class="alwaysopen"><input type="checkbox" id="R-section-9df347ea19638e0a59ce55a02e4a4434" aria-controls="R-subsections-9df347ea19638e0a59ce55a02e4a4434" checked><label for="R-section-9df347ea19638e0a59ce55a02e4a4434"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Privacy e sicurezza</span></label><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/index.html">Privacy e sicurezza</a><ul id="R-subsections-9df347ea19638e0a59ce55a02e4a4434" class="morespace collapsible-menu">
           <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.html" class=""><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.html">Proteggersi su internet</a></li>
@@ -386,7 +288,7 @@ B(Base58Check)          --&gt; |A = 26-35 char| C(Indirizzo bitcoin)</pre>
                   <div class="control-style">
                     <label class="a11y-only" for="R-select-language">Language</label>
                     <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
-                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html" lang="en-us" selected></option>
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256/index.html" lang="en-us" selected></option>
                     </select>
                   </div>
                   <div class="clear"></div>
@@ -439,20 +341,6 @@ B(Base58Check)          --&gt; |A = 26-35 char| C(Indirizzo bitcoin)</pre>
     </aside>
     <script src="/js/clipboard.min.js" defer></script>
     <script src="/js/perfect-scrollbar.min.js" defer></script>
-    <script src="/js/d3/d3-color.min.js" defer></script>
-    <script src="/js/d3/d3-dispatch.min.js" defer></script>
-    <script src="/js/d3/d3-drag.min.js" defer></script>
-    <script src="/js/d3/d3-ease.min.js" defer></script>
-    <script src="/js/d3/d3-interpolate.min.js" defer></script>
-    <script src="/js/d3/d3-selection.min.js" defer></script>
-    <script src="/js/d3/d3-timer.min.js" defer></script>
-    <script src="/js/d3/d3-transition.min.js" defer></script>
-    <script src="/js/d3/d3-zoom.min.js" defer></script>
-    <script src="/js/js-yaml.min.js" defer></script>
-    <script src="/js/mermaid.min.js" defer></script>
-    <script>
-      window.themeUseMermaid = JSON.parse("{ \"securityLevel\": \"loose\" }");
-    </script>
     <script src="/js/theme.js" defer></script>
   </body>
 </html>

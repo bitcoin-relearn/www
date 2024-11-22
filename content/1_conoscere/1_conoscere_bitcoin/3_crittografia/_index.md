@@ -45,6 +45,8 @@ Ora cambiamo una singola lettera, scrivendo "Bitcoin è Fantastico". Anche con q
 
 Come si può notare, l’hash cambia radicalmente anche con una piccola modifica. Questo garantisce che i dati registrati su Bitcoin non possano essere manomessi senza che la modifica sia immediatamente rilevata.
 
+{{% button href="" style="blue" %}}Demo interattiva:{{% /button %}} [Algoritmo SHA-256](ext/sha-256.html)
+
 ### Algoritmo RIPEMD-160: La Generazione degli Indirizzi
 
 L’algoritmo **RIPEMD-160** è una funzione di hashing progettata per produrre un hash (o impronta digitale) di 160 bit. Viene utilizzato nella generazione degli indirizzi dagli hash delle chiavi pubbliche per rendere l'output più compatto, rendendolo più pratico da usare e riducendo i costi di memoria e di trasmissione dei dati.

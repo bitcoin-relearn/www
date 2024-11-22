@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo SHA-256</title>
+    <!-- Link a Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #343a40;
+            color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #495057;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+        #inputText, #outputHash {
+            background-color: #212529;
+            color: #f8f9fa;
+            border: 1px solid #6c757d;
+        }
+        #outputHash {
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mb-4">Algoritmo SHA-256</h2>
+        <div class="mb-3">
+            <label for="inputText" class="form-label">Inserisci il testo:</label>
+            <input type="text" id="inputText" class="form-control" placeholder="Inserisci qui il testo">
+        </div>
+        <div class="mb-3">
+            <label for="outputHash" class="form-label">Hash SHA-256:</label>
+            <textarea id="outputHash" class="form-control" rows="2" readonly placeholder="L'hash apparirà qui"></textarea>
+        </div>
+    </div>
+
+    <script>
+        async function calculateSHA256(text) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(text);
+
+            // Calcola l'hash SHA-256
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+            // Mostra il risultato
+            document.getElementById('outputHash').value = hashHex;
+        }
+
+        // Aggiungi un event listener all'input di testo per calcolare l'hash ad ogni modifica
+        document.getElementById('inputText').addEventListener('input', (event) => {
+            calculateSHA256(event.target.value);
+        });
+    </script>
+
+    <!-- Link a Bootstrap JS (opzionale) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
