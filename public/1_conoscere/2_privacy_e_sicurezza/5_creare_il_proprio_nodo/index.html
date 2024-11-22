@@ -26,7 +26,7 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
 Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti permette di avere il pieno controllo delle tue transazioni e dei tuoi fondi, proteggendo la tua privacy in modo più efficace rispetto all’uso di servizi di terze parti. Con un nodo privato, non dipendi da intermediari per verificare le transazioni, evitando che i tuoi dati personali vengano tracciati o esposti. Inoltre, contribuisci alla sicurezza e alla decentralizzazione della rete Bitcoin, senza affidarti a piattaforme che potrebbero monitorare o censurare le tue attività. In sintesi, un nodo privato ti offre maggiore autonomia, sicurezza e privacy.">
     <meta itemprop="datePublished" content="2024-10-05T00:00:00+00:00">
     <meta itemprop="dateModified" content="2024-10-05T00:00:00+00:00">
-    <meta itemprop="wordCount" content="716">
+    <meta itemprop="wordCount" content="1244">
     <meta itemprop="image" content="//localhost:1313/images/hero.png">
     <title>Creare il proprio nodo :: Bitcoin Relearn</title>
     <link href="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.xml" rel="alternate" type="application/rss+xml" title="Creare il proprio nodo :: Bitcoin Relearn">
@@ -97,7 +97,7 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
       <ul>
         <li><a href="#accesso-a-startos-da-rete-lan">Accesso a StartOS da rete LAN</a></li>
         <li><a href="#installazione-del-certificato">Installazione del certificato</a></li>
-        <li><a href="#predisposizione-accesso-con-ssh">Predisposizione accesso con SSH</a></li>
+        <li><a href="#predisposizione-accesso-con-ssh-opzionale">Predisposizione accesso con SSH (OPZIONALE)</a></li>
         <li><a href="#installazione-di-bitcoin-core">Installazione di Bitcoin Core</a></li>
         <li><a href="#installazione-di-electrs">Installazione di Electrs</a></li>
         <li><a href="#installazione-di-mempool">Installazione di Mempool</a></li>
@@ -164,65 +164,33 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
 <h1 id="hardware-necessario">Hardware necessario</h1>
 <p>Acquistare un mini PC per creare il proprio nodo Bitcoin è una scelta vantaggiosa poichè sono compatti, silenziosi e richiedono poca energia, il che li rende ideali per un funzionamento continuo senza incidere troppo sui consumi elettrici.</p>
 <p>Sono qui proposte due soluzioni, che ho personalmente provato e che mi sento di consigliare:</p>
-<div class="tab-panel" data-tab-group="ee9d210b0c33141ec685263c3dba7ef8">
+<div class="tab-panel" data-tab-group="0b9d33902193c3ed617074cbd9b26641">
   <div class="tab-nav">
     <div class="tab-nav-title">Mini PC:</div>
     <button
-      data-tab-item="hp-elitedesk-800-g3"
-      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('ee9d210b0c33141ec685263c3dba7ef8','hp-elitedesk-800-g3')"
-    >
-      <span class="tab-nav-text">HP EliteDesk 800 G3</span>
-    </button>
-    <button
       data-tab-item="acemagic-s1-n95"
-      class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('ee9d210b0c33141ec685263c3dba7ef8','acemagic-s1-n95')"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('0b9d33902193c3ed617074cbd9b26641','acemagic-s1-n95')"
     >
       <span class="tab-nav-text">Acemagic S1 N95</span>
+    </button>
+    <button
+      data-tab-item="hp-elitedesk-800-g3"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('0b9d33902193c3ed617074cbd9b26641','hp-elitedesk-800-g3')"
+    >
+      <span class="tab-nav-text">HP EliteDesk 800 G3</span>
     </button>
   </div>
   <div class="tab-content-container">
     <div
-      data-tab-item="hp-elitedesk-800-g3"
-      class="tab-content tab-panel-style cstyle initial active">
-      <div class="tab-content-text">
-<h3 id="hp-elitedesk-800-g3">HP EliteDesk 800 G3</h3>
-<p>Dispositivi ricondizionati sono facilmente reperibili online (Amazon ed Ebay). Si consiglia l&rsquo;acquisto separato di un SSD NVMe PCIe3.0 da almeno 2TB, che sarà poi da installare all&rsquo;interno del mini PC.</p>
-<p><a href="#R-image-51af5c4badfa5f663b9f109530bf2677" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/HP_EliteDesk_800_G4_35W_miniPC.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-51af5c4badfa5f663b9f109530bf2677"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/HP_EliteDesk_800_G4_35W_miniPC.png"></a></p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">CPU</th>
-          <th style="text-align: left">Intel Core i5 gen6 - 2.4GHz</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">RAM</td>
-          <td style="text-align: left">16GB DDR4</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">SSD</td>
-          <td style="text-align: left">1 slot SATA III 2.5&rsquo;&rsquo; 6GB/s, 1 slot M.2 NVMe PCIe3.0</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Power</td>
-          <td style="text-align: left">DC 19.5V 3.33A - 65W</td>
-      </tr>
-  </tbody>
-</table>
-      </div>
-    </div>
-    <div
       data-tab-item="acemagic-s1-n95"
-      class="tab-content tab-panel-style cstyle initial">
+      class="tab-content tab-panel-style cstyle initial active">
       <div class="tab-content-text">
 <h3 id="acemagic-s1-n95">Acemagic S1 N95</h3>
 <p>Facilmente reperibile su Amazon o sul <a href="https://acemagic.eu/products/s1-minipc" rel="external" target="_self">sito del produttore</a>. Si consiglia l&rsquo;acquisto separato di un SSD NVMe PCIe3.0 da almeno 2TB, che sarà poi da installare all&rsquo;interno del mini PC.</p>
-<p><a href="#R-image-644f38bb592e7557def7909901ce5de8" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/Acemagic_S1_N95_miniPC.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-644f38bb592e7557def7909901ce5de8"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/Acemagic_S1_N95_miniPC.png"></a></p>
+<p><a href="#R-image-1d2211774ddca72cdfbe19c2a5d412af" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/Acemagic_S1_N95_miniPC.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d2211774ddca72cdfbe19c2a5d412af"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/Acemagic_S1_N95_miniPC.png"></a></p>
 <table>
   <thead>
       <tr>
@@ -247,6 +215,38 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
 </table>
       </div>
     </div>
+    <div
+      data-tab-item="hp-elitedesk-800-g3"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<h3 id="hp-elitedesk-800-g3">HP EliteDesk 800 G3</h3>
+<p>Dispositivi ricondizionati sono facilmente reperibili online (Amazon ed Ebay). Si consiglia l&rsquo;acquisto separato di un SSD NVMe PCIe3.0 da almeno 2TB, che sarà poi da installare all&rsquo;interno del mini PC.</p>
+<p><a href="#R-image-031d5beacc06c8d3af6ca19fdff9ffdb" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/HP_EliteDesk_800_G4_35W_miniPC.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-031d5beacc06c8d3af6ca19fdff9ffdb"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/HP_EliteDesk_800_G4_35W_miniPC.png"></a></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">CPU</th>
+          <th style="text-align: left">Intel Core i5 gen6 - 2.4GHz</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">RAM</td>
+          <td style="text-align: left">16GB DDR4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SSD</td>
+          <td style="text-align: left">1 slot SATA III 2.5&rsquo;&rsquo; 6GB/s, 1 slot M.2 NVMe PCIe3.0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Power</td>
+          <td style="text-align: left">DC 19.5V 3.33A - 65W</td>
+      </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
   </div>
 </div>
 <hr>
@@ -258,13 +258,13 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
 </li>
 <li>
 <p>Clicca sull&rsquo;ultima release, taggata come &ldquo;Latest&rdquo;</p>
-<p><a href="#R-image-959c31a1a53be225d9aba8bdfacb49ae" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen01.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-959c31a1a53be225d9aba8bdfacb49ae"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen01.png"></a></p>
+<p><a href="#R-image-21552d120401628f7080007931f84961" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen01.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-21552d120401628f7080007931f84961"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen01.png"></a></p>
 </li>
 <li>
 <p>Scorrere in fondo alla pagina e cliccare sul file che termina con &ldquo;x86_64.iso&rdquo;</p>
-<p><a href="#R-image-856beb18d98ad1509072a8f40801d792" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen02.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-856beb18d98ad1509072a8f40801d792"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen02.png"></a></p>
+<p><a href="#R-image-cee77774e58c99242d4f97b198c7e27f" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen02.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cee77774e58c99242d4f97b198c7e27f"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen02.png"></a></p>
 </li>
 </ol>
 <h3 id="creare-una-iso-di-startos-per-il-boot">Creare una ISO di StartOS per il boot</h3>
@@ -280,8 +280,8 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
 </li>
 <li>
 <p>Avviare Balena Hetcher</p>
-<p><a href="#R-image-469bdfa5d8ae505189b862b3603fa0f9" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen03.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-469bdfa5d8ae505189b862b3603fa0f9"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen03.png"></a></p>
+<p><a href="#R-image-ab9588f3a8144e1d659a56c42fc0e86f" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen03.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ab9588f3a8144e1d659a56c42fc0e86f"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen03.png"></a></p>
 </li>
 <li>
 <p>Cliccare su &ldquo;Flash from file&rdquo; e selezionare il file di StartOS (con estensione .iso) scaricato precedentemente</p>
@@ -300,8 +300,8 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
 </li>
 <li>
 <p>Accendere il Nodo e, mentre si avvia (fin dai primi istanti dopo averlo acceso) premere ripetutamente il tasto <!-- raw HTML omitted -->ESC<!-- raw HTML omitted --> (o il tasto <!-- raw HTML omitted -->F4<!-- raw HTML omitted -->, o <!-- raw HTML omitted -->F8<!-- raw HTML omitted -->, in funzione dell&rsquo;hardware utilizzato), fino a quando comparirà la schermata del BIOS</p>
-<p><a href="#R-image-efd794b432fec146f1034a139114c8c6" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen04.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-efd794b432fec146f1034a139114c8c6"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen04.png"></a></p>
+<p><a href="#R-image-e8c2228946b4b3e885a0bcf447b80bf3" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen04.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e8c2228946b4b3e885a0bcf447b80bf3"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen04.png"></a></p>
 </li>
 <li>
 <p>Utilizzando i tasti freccia della tastiera, selezionare la scheda &ldquo;Boot&rdquo; e scorrere fino alla voce &ldquo;Boot Option #1&rdquo;, quindi premere <!-- raw HTML omitted -->INVIO<!-- raw HTML omitted --> e selezionare la chiavetta USB inserita</p>
@@ -311,61 +311,107 @@ Perchè possedere un nodo privato Operare con Bitcoin tramite un nodo privato ti
 </li>
 <li>
 <p>Attendere il riavvio e l&rsquo;inizializzazione dell&rsquo;installazione di StartOS, quindi selezionare l&rsquo;SSD su cui effettuare l&rsquo;installazione</p>
-<p><a href="#R-image-1793dd605851db7cff2f77de2b41d0f0" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen05.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1793dd605851db7cff2f77de2b41d0f0"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen05.png"></a></p>
+<p><a href="#R-image-2c43af6e7523c2f4f2e50073b7ea3e60" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen05.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c43af6e7523c2f4f2e50073b7ea3e60"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen05.png"></a></p>
 </li>
 <li>
 <p>Cliccare su &ldquo;Install StartOS&rdquo; e confermare cliccando CONTINUE</p>
-<p><a href="#R-image-895092d48a1b6d776fe5eb7514dfdaca" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen06.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-895092d48a1b6d776fe5eb7514dfdaca"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen06.png"></a>
-<a href="#R-image-876bdba3a37f7dd5fdb473e9745cc066" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen07.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-876bdba3a37f7dd5fdb473e9745cc066"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen07.png"></a></p>
+<p><a href="#R-image-548333e4cac1ba21a95fa93ce7ddcd6a" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen06.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-548333e4cac1ba21a95fa93ce7ddcd6a"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen06.png"></a>
+<a href="#R-image-c7f55db38224b37ddcfdbc984f8ebdb0" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen07.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c7f55db38224b37ddcfdbc984f8ebdb0"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen07.png"></a></p>
 </li>
 <li>
 <p>Attendere il completamento dell&rsquo;installazione, quindi rimuovere la chiavetta USB dal Nodo e cliccare su REBOOT</p>
-<p><a href="#R-image-43ade7e7e0c8921936f86588e6d70f20" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen08.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-43ade7e7e0c8921936f86588e6d70f20"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen08.png"></a></p>
+<p><a href="#R-image-6d3c45c4d66781f794d37b1b2bc617ba" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen08.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d3c45c4d66781f794d37b1b2bc617ba"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen08.png"></a></p>
 </li>
 <li>
 <p>Se tutto è andato a buon fine, comparirà questa schermata. Cliccare su &ldquo;Start Fresh&rdquo; e quindi selezionare l&rsquo;SSD</p>
-<p><a href="#R-image-db2fb041fce0f80201e55365257ff49b" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen10.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-db2fb041fce0f80201e55365257ff49b"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen10.png"></a>
-<a href="#R-image-72f8da7a18402d6f1e9da53de94af7ea" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen11.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-72f8da7a18402d6f1e9da53de94af7ea"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen11.png"></a></p>
+<p><a href="#R-image-a87dc9cf83fe4b0e8201551593fd4861" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen10.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a87dc9cf83fe4b0e8201551593fd4861"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen10.png"></a>
+<a href="#R-image-e3aaa5a94d1f9d6012b953eef12695af" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen11.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e3aaa5a94d1f9d6012b953eef12695af"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen11.png"></a></p>
 </li>
 <li>
 <p>Inserire una password, ri-scriverla per conferma e quindi cliccare su FINISH.</p>
-<p><a href="#R-image-b2f2baaf19a19572cf1d7c0bbc8dd09b" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen12.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b2f2baaf19a19572cf1d7c0bbc8dd09b"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen12.png"></a></p>
+<p><a href="#R-image-74689a3f49ec983d454370d9a6bddd37" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen12.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-74689a3f49ec983d454370d9a6bddd37"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen12.png"></a></p>
 </li>
 <li>
 <p>Attendere l&rsquo;inizializzazione di StartOS</p>
-<p><a href="#R-image-8741eefe7a567e22636ca6a850d937a4" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen13.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8741eefe7a567e22636ca6a850d937a4"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen13.png"></a></p>
+<p><a href="#R-image-f86091b7b3e26188f69ceeda98940a39" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen13.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f86091b7b3e26188f69ceeda98940a39"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen13.png"></a></p>
 </li>
 <li>
 <p>Al termine dell&rsquo;inizializzazione, sarà possibile loggarsi per accedere al proprio nodo</p>
-<p><a href="#R-image-b1d512c8cdb8bf01a6d948b9925191fb" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen14.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1d512c8cdb8bf01a6d948b9925191fb"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen14.png"></a>
-<a href="#R-image-537297383dcae2cb30cfbb300dcb9674" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-537297383dcae2cb30cfbb300dcb9674"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png"></a></p>
+<p><a href="#R-image-29112331b9bbd31556f2b99bf7d1f2cf" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen14.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-29112331b9bbd31556f2b99bf7d1f2cf"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen14.png"></a>
+<a href="#R-image-bbd35b730cb6748d846aa76049dbdb8d" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bbd35b730cb6748d846aa76049dbdb8d"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png"></a></p>
 </li>
 </ol>
 <hr>
 <h1 id="configurazione-startos">Configurazione StartOS</h1>
 <h3 id="accesso-a-startos-da-rete-lan">Accesso a StartOS da rete LAN</h3>
-<p>==DESCRIVERE DI PRENDERE L&rsquo;IP O L&rsquo;HOST NAME==</p>
-<p><a href="#R-image-281e334a34ccf96a16c96eeb14743ee8" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-281e334a34ccf96a16c96eeb14743ee8"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png"></a>
-<a href="#R-image-167600d21e20fbabdf51d4303c51d79d" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-167600d21e20fbabdf51d4303c51d79d"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png"></a></p>
+<p>Per poter accedere al nodo tramite un altro PC collegato alla stessa rete del nodo (per esempio tramite la propria WiFi di casa o di ufficio) è necessario conoscere l&rsquo;IP del nodo.</p>
+<ol start="22">
+<li>Dal menù di sinistra, cliccare su &ldquo;System&rdquo;</li>
+</ol>
+<p><a href="#R-image-4e338d506a1d5102457899b90c513c1c" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4e338d506a1d5102457899b90c513c1c"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png"></a></p>
+<ol start="23">
+<li>Poi cliccare su &ldquo;About&rdquo;</li>
+</ol>
+<p><a href="#R-image-29800578949760f99718ef53913202d3" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-29800578949760f99718ef53913202d3"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png"></a></p>
+<ol start="24">
+<li>Copiare l&rsquo;indirizzo IP che si trova alla voce &ldquo;enp4s0 (IPv4)&rdquo; ed inserirlo come URL nel brower di un qualunque PC collegato alla stessa rete del nodo.</li>
+</ol>
 <h3 id="installazione-del-certificato">Installazione del certificato</h3>
-<h3 id="predisposizione-accesso-con-ssh">Predisposizione accesso con SSH</h3>
+<p>Provando ad accedere come descritto al paragrafo precedente, si noterà che la connessione non è sicura. Questo perchè bisogna installare il certificato per poter sfruttare la connessione sicura https anzichè http.</p>
+<ol start="25">
+<li>
+<p>Dal menù di sinistra, cliccare su &ldquo;System&rdquo;</p>
+<p><a href="#R-image-5a23dffce43937749488f42bdc6048e9" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5a23dffce43937749488f42bdc6048e9"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png"></a></p>
+</li>
+<li>
+<p>Poi cliccare su &ldquo;Root CA&rdquo; e quindi su &ldquo;Download Root CA&rdquo;</p>
+</li>
+<li>
+<p>L&rsquo;installazione del certificato dipende dal sistema operativo del PC da cui si vuole accedere al nodo:</p>
+<ol>
+<li>Se ci si trova su sistema operativo Windows, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/windows/ca-windows#ca-windows" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo Linux, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/linux/ca-linux#ca-linux" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo Mac, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/mac/ca-mac#ca-mac" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo Android, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/android/ca-android#ca-android" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo iOS, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/ios/ca-ios#ca-ios" rel="external" target="_self">guida</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="predisposizione-accesso-con-ssh-opzionale">Predisposizione accesso con SSH (OPZIONALE)</h3>
+<p>L&rsquo;accesso al nodo tramite protocollo SSH è <strong>OPZIONALE</strong>, ma si rivela particolarmente utile in fase di manutenzione; nel caso in cui fosse necessario accedere al nodo per effettuare azioni di diagnostica, interventi correttivi o di ripristino.</p>
+<ol start="28">
+<li>Per configurare l&rsquo;accesso tramite SSH, seguire questa <a href="https://docs.start9.com/0.3.5.x/user-manual/ssh" rel="external" target="_self">guida</a>, in particolare, seguire i paragrafi &ldquo;Creating an SSH Key&rdquo; e &ldquo;Registering an SSH Key&rdquo;</li>
+</ol>
 <h3 id="installazione-di-bitcoin-core">Installazione di Bitcoin Core</h3>
+<p><strong>Bitcoin Core</strong> è il software open-source principale per interagire con la rete Bitcoin. Il software implementa il protocollo Bitcoin e include tutte le funzionalità necessarie per partecipare alla rete. L&rsquo;installazione potrà richiedere anche diversi giorni, poichè la prima volta sarà scaricata l&rsquo;intera blockchain.</p>
+<ol start="29">
+<li>Dal menù di sinistra, cliccare su &ldquo;Marketplace&rdquo; e poi cercare &ldquo;Bitcoin Core&rdquo; nella barra di &ldquo;Search&rdquo;. Quindi, cliccare sull&rsquo;app &ldquo;Bitcoin Core&rdquo; e seguire le semplici informazioni a video per l&rsquo;installazione.</li>
+</ol>
 <h3 id="installazione-di-electrs">Installazione di Electrs</h3>
+<p><strong>Electrs</strong> è un software open-source progettato per migliorare l&rsquo;accesso ai dati della blockchain Bitcoin tramite il protocollo <strong>Electrum</strong>, un protocollo leggero per interrogare i nodi Bitcoin. Con Electrs, è possibile collegare e gestire tutti i tuoi Wallets; inoltre, si ha la certezza che le richieste di transazioni e bilanci vengono elaborate dal tuo nodo, proteggendo la tua privacy e impedendo a terzi di monitorare le tue attività. L&rsquo;installazione potrà richiedere anche diversi giorni, poichè la prima volta sarà indicizzata tutta la blockchain.</p>
+<ol start="30">
+<li>Dal menù di sinistra, cliccare su &ldquo;Marketplace&rdquo; e poi cercare &ldquo;Electrs&rdquo; nella barra di &ldquo;Search&rdquo;. Quindi, cliccare sull&rsquo;app &ldquo;Electrs&rdquo; e seguire le semplici informazioni a video per l&rsquo;installazione.</li>
+</ol>
 <h3 id="installazione-di-mempool">Installazione di Mempool</h3>
+<p><strong>Mempool</strong> è uno strumento open-source che offre una visualizzazione in tempo reale dello stato della mempool di Bitcoin e altre informazioni sulla rete. È un esploratore blockchain, progettato per fornire un modo intuitivo e visivamente accattivante per monitorare le transazioni, i blocchi, e l&rsquo;attività della rete Bitcoin. L&rsquo;installazione locale offre il massimo livello di privacy, poiché i dati vengono direttamente dal proprio nodo senza bisogno di accedere a server di terze parti.</p>
+<ol start="31">
+<li>Dal menù di sinistra, cliccare su &ldquo;Marketplace&rdquo; e poi cercare &ldquo;Mempool&rdquo; nella barra di &ldquo;Search&rdquo;. Quindi, cliccare sull&rsquo;app &ldquo;Mempool&rdquo; e seguire le semplici informazioni a video per l&rsquo;installazione.</li>
+</ol>
 <hr>
-<h1 id="preparazione-del-wallet">Preparazione del Wallet</h1>
+<h1 id="utilizzo-del-wallet-con-il-proprio-nodo">Utilizzo del Wallet con il proprio Nodo</h1>
 <h3 id="installazione-sparrow-wallet">Installazione Sparrow Wallet</h3>
 <h3 id="configurazione-sparrow-wallet">Configurazione Sparrow Wallet</h3>
 <h3 id="creazioneimportazione-wallet">Creazione/Importazione Wallet</h3>
