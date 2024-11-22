@@ -13,7 +13,7 @@
 		{"id":"e03ff9e53d030717","type":"text","text":"Vendita","x":280,"y":1480,"width":250,"height":60},
 		{"id":"0795c6eb41ad9652","type":"text","text":"Fiscalità","x":280,"y":760,"width":250,"height":60},
 		{"id":"938a00050e6f7dc0","type":"text","text":"Privacy e Sicurezza","x":280,"y":360,"width":250,"height":60},
-		{"id":"53641175a134b777","type":"text","text":"Conoscere Bitcoin","x":280,"y":-200,"width":250,"height":60},
+		{"id":"53641175a134b777","type":"text","text":"Fondamenti","x":280,"y":-200,"width":250,"height":60},
 		{"id":"db3a69f295c2cf6c","type":"text","text":"Chiavi e Indirizzi","x":780,"y":40,"width":250,"height":60},
 		{"id":"e6a0d3dc8418675d","type":"text","text":"Firma digitale","x":780,"y":120,"width":250,"height":60},
 		{"id":"30e5be25d4c7245f","type":"text","text":"Transazioni","x":780,"y":200,"width":250,"height":60},

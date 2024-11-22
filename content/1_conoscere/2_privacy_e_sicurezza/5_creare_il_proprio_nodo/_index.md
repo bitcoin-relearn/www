@@ -9,6 +9,19 @@ draft = false
 > [!important] Brief:
 > Questa sezione ti guiderà nella preparazione di un nodo bitcoin personale e a familiarizzare con le basi del suo funzionamento.
 
+> [!TIP]+ Con parole semplici
+> ##### Perchè creare il proprio nodo
+> Utilizzare il proprio nodo Bitcoin è fondamentale per chi cerca il massimo livello di **autonomia, sicurezza e privacy** nell'interazione con la rete Bitcoin.
+> 
+> Ecco i motivi principali:
+> - **Verifica indipendente delle transazioni**: Un nodo privato consente di verificare autonomamente che tutte le transazioni e i blocchi rispettino le regole del protocollo Bitcoin, eliminando la necessità di fidarsi di nodi di terze parti.
+> - **Massima privacy**: Con un nodo privato, le richieste per monitorare transazioni o bilanci non vengono inviate a servizi esterni, riducendo il rischio di tracciamento o sorveglianza.
+> - **Partecipazione alla rete**: Contribuire al funzionamento della rete Bitcoin aumenta la sua decentralizzazione e resilienza, rafforzandone la sicurezza complessiva.
+> - **Controllo totale**: Usando il proprio nodo, si ha piena autonomia e controllo sulle interazioni con la rete, come l'invio di transazioni o la gestione di portafogli.
+> - **Supporto ai portafogli personali**: Connettere portafogli come Sparrow Wallet, Electrum o hardware wallet al proprio nodo garantisce che i dati siano accurati e verificati direttamente.
+>
+> Utilizzare un nodo privato permette di gestire Bitcoin nel modo più sicuro, privato e conforme alla filosofia di decentralizzazione che è alla base della rete.
+
 ### Perchè possedere un nodo privato
 
 Operare con Bitcoin tramite un nodo privato ti permette di avere il pieno controllo delle tue transazioni e dei tuoi fondi, proteggendo la tua privacy in modo più efficace rispetto all'uso di servizi di terze parti. Con un nodo privato, non dipendi da intermediari per verificare le transazioni, evitando che i tuoi dati personali vengano tracciati o esposti. Inoltre, contribuisci alla sicurezza e alla decentralizzazione della rete Bitcoin, senza affidarti a piattaforme che potrebbero monitorare o censurare le tue attività. In sintesi, un nodo privato ti offre maggiore autonomia, sicurezza e privacy.

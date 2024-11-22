@@ -11,9 +11,88 @@
             "id": "20333e5dd0761a98",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SiteMap.canvas",
+                "viewState": {
+                  "x": 832.9532537191407,
+                  "y": 632.6768961433003,
+                  "zoom": -0.3977597751852706
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "SiteMap"
+            }
+          },
+          {
+            "id": "ff447b87a98db2af",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SiteMap.canvas",
+                "viewState": {
+                  "x": 718.0422537176132,
+                  "y": 635.6136108864819,
+                  "zoom": -0.3977597751852706
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "SiteMap"
+            }
+          },
+          {
+            "id": "cb1ffc21036e1d66",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SiteMap.canvas",
+                "viewState": {
+                  "x": 771.4488914746458,
+                  "y": 690.035657423914,
+                  "zoom": -0.3977597751852706
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "SiteMap"
+            }
+          },
+          {
+            "id": "eb295afbe5d697f5",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
+                "file": "content/1_conoscere/2_privacy_e_sicurezza/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          },
+          {
+            "id": "5e07b32faa486d8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/1_conoscere/3_fiscalita/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          },
+          {
+            "id": "489b9ff7ea831238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -21,7 +100,8 @@
               "title": "_index"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -173,20 +253,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20333e5dd0761a98",
+  "active": "489b9ff7ea831238",
   "lastOpenFiles": [
-    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256/index.html",
-    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256",
-    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext",
-    "content/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+    "content/1_conoscere/2_privacy_e_sicurezza/1_introduzione/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/sha-256.html",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
+    "content/1_conoscere/2_privacy_e_sicurezza/_index.md",
+    "SiteMap.canvas",
+    "content/1_conoscere/3_fiscalita/1_introduzione/_index.md",
+    "public/1_conoscere/3_fiscalita/1_introduzione/index.xml",
+    "public/1_conoscere/3_fiscalita/1_introduzione/index.html",
+    "public/1_conoscere/3_fiscalita/1_introduzione",
+    "content/1_conoscere/3_fiscalita/_index.md",
+    "content/1_conoscere/3_fiscalita/1_introduzione",
+    "content/1_conoscere/_index.md",
+    "public/1_conoscere/3_fiscalita/index.xml",
+    "public/1_conoscere/3_fiscalita/index.html",
+    "public/1_conoscere/3_fiscalita",
+    "content/1_conoscere/3_fiscalita",
+    "content/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/_index.md",
+    "public/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/index.xml",
+    "public/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/index.html",
+    "content/1_conoscere/2_privacy_e_sicurezza/2_custodire_bitcoin/_index.md",
+    "content/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
+    "themes/hugo-theme-relearn/layouts/partials/initial.md",
+    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
     "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_server_electrum.png",
@@ -197,30 +291,15 @@
     "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png",
-    "public/1_conoscere/2_privacy_e_sicurezza/index.xml",
-    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.xml",
-    "public/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.xml",
-    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html",
-    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img",
-    "public/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.html",
-    "content/1_conoscere/2_privacy_e_sicurezza/_index.md",
     "content/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
     "content/2_privacy_e_sicurezza/_index.md",
     "content/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/_index.md",
     "content/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
-    "content/1_conoscere/_index.md",
-    "SiteMap.canvas",
     "README.md",
     "themes/hugo-theme-relearn/CHANGELOG.md",
     "themes/hugo-theme-relearn/README.md",
     "archetypes/default.md",
-    "themes/hugo-theme-relearn/layouts/partials/initial.md",
-    "themes/hugo-theme-relearn/exampleSite/content/tags/the-hidden/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/tags/the-hidden/_index.en.md",
-    "themes/hugo-theme-relearn/exampleSite/content/tags/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/tags/_index.en.md",
-    "themes/hugo-theme-relearn/exampleSite/content/showcase/_index.pir.md",
-    "themes/hugo-theme-relearn/exampleSite/content/showcase/_index.en.md"
+    "themes/hugo-theme-relearn/exampleSite/content/tags/the-hidden/_index.pir.md"
   ]
 }
