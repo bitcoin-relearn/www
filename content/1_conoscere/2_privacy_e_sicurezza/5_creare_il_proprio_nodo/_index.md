@@ -1,7 +1,7 @@
 +++
 title = 'Creare il proprio nodo'
-author = 'me'
-date = 2024-10-05
+author = 'Mattia'
+date = 2024-11-22
 weight = 5
 draft = false
 +++
@@ -261,6 +261,7 @@ sudo add-apt-repository universe
 ```bash
 sudo apt install libfuse2
 ```
+
 ### Transare tramite il proprio nodo (OPZIONALE)
 
 Ora che siete pronti per operare, valutate di effettuare una transazione (o transazione di *consolidamento*) per avere la certezza che tutto funzioni e per godere di un'iniezione di autostima!
