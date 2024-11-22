@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECDSA Firma e Verifica</title>
+    <!-- Link a Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elliptic/6.5.4/elliptic.min.js"></script> <!-- Elliptic.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> <!-- CryptoJS -->
+    <style>
+        body {
+            background-color: #343a40;
+            color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 850px;
+            padding: 20px;
+            background-color: #495057;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+        input, textarea {
+            background-color: #212529;
+            color: #f8f9fa;
+            border: 1px solid #6c757d;
+        }
+        textarea {
+            resize: none;
+        }
+        .result {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: #198754;
+            color: #fff;
+        }
+        .failure {
+            background-color: #dc3545;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mb-4">Generazione Firma Digitale (ECDSA)</h2>
+        <!-- Generazione della chiave privata -->
+        <div class="mb-3">
+            <label for="privateKey" class="form-label">Chiave Privata:</label>
+            <div class="input-group">
+                <input type="text" id="privateKey" class="form-control" readonly placeholder="Premi il pulsante per generare">
+                <button class="btn btn-primary" id="generatePrivateKey">Genera Chiave Privata</button>
+            </div>
+        </div>
+        <!-- Generazione del messaggio hash -->
+        <div class="mb-3">
+            <label for="messageHash" class="form-label">Hash del Messaggio:</label>
+            <div class="input-group">
+                <input type="text" id="messageHash" class="form-control" readonly placeholder="Premi il pulsante per generare">
+                <button class="btn btn-primary" id="generateMessageHash">Genera Hash</button>
+            </div>
+        </div>
+        <!-- Firma Digitale -->
+        <div class="mb-3">
+            <label for="signature" class="form-label">Firma Digitale:</label>
+            <textarea id="signature" class="form-control" rows="2" readonly placeholder="Premi il pulsante per calcolare"></textarea>
+            <button class="btn btn-success mt-2 w-100" id="generateSignature">Genera Firma Digitale</button>
+        </div>
+        <h2 class="text-center mb-4">Verifica Firma Digitale (ECDSA)</h2>
+        <!-- Verifica della Firma -->
+        <div class="mb-3">
+            <label for="publicKey" class="form-label">Chiave Pubblica:</label>
+            <div class="input-group">
+                <input type="text" id="publicKey" class="form-control" readonly placeholder="Premi il pulsante per derivare dalla chiave privata">
+                <button class="btn btn-primary" id="generatePublicKey">Deriva Chiave Pubblica</button>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="verifyResult" class="form-label">Esito Verifica:</label>
+            <div id="verifyResult" class="result"></div>
+            <button class="btn btn-warning w-100 mt-2" id="verifySignature">Verifica Firma Digitale</button>
+        </div>
+    </div>
+
+    <script>
+        // Inizializza l'oggetto per la curva SECP256k1
+        const EC = new elliptic.ec('secp256k1');
+        
+        // Funzione per generare una chiave privata casuale
+        function generatePrivateKey() {
+            const privateKey = EC.genKeyPair().getPrivate('hex');
+            document.getElementById('privateKey').value = privateKey;
+        }
+
+        // Funzione per generare un hash casuale (simulazione hash SHA-256 di un messaggio)
+        function generateMessageHash() {
+            const randomBytes = CryptoJS.lib.WordArray.random(32);
+            const randomHash = CryptoJS.SHA256(randomBytes).toString(CryptoJS.enc.Hex);
+            document.getElementById('messageHash').value = randomHash;
+        }
+
+        // Funzione per generare una firma digitale ECDSA
+        function generateSignature() {
+            const privateKeyHex = document.getElementById('privateKey').value;
+            const messageHash = document.getElementById('messageHash').value;
+
+            if (!privateKeyHex || !messageHash) {
+                alert('Per favore, genera una chiave privata e un hash del messaggio prima di calcolare la firma.');
+                return;
+            }
+
+            const keyPair = EC.keyFromPrivate(privateKeyHex);
+            const signature = keyPair.sign(messageHash);
+            const signatureHex = {
+                r: signature.r.toString(16),
+                s: signature.s.toString(16)
+            };
+
+            document.getElementById('signature').value = `r: ${signatureHex.r}\ns: ${signatureHex.s}`;
+        }
+
+        // Funzione per derivare la chiave pubblica dalla chiave privata
+        function generatePublicKey() {
+            const privateKeyHex = document.getElementById('privateKey').value;
+
+            if (!privateKeyHex) {
+                alert('Per favore, genera prima una chiave privata.');
+                return;
+            }
+
+            const keyPair = EC.keyFromPrivate(privateKeyHex);
+            const publicKeyHex = keyPair.getPublic('hex');
+            document.getElementById('publicKey').value = publicKeyHex;
+        }
+
+        // Funzione per verificare la firma digitale
+        function verifySignature() {
+            const publicKeyHex = document.getElementById('publicKey').value;
+            const messageHash = document.getElementById('messageHash').value;
+            const signatureText = document.getElementById('signature').value;
+
+            if (!publicKeyHex || !messageHash || !signatureText) {
+                alert('Per favore, genera tutti i dati necessari prima di verificare.');
+                return;
+            }
+
+            const [r, s] = signatureText.split('\n').map(line => line.split(': ')[1]);
+            const signature = { r, s };
+
+            try {
+                const keyPair = EC.keyFromPublic(publicKeyHex, 'hex');
+                const isValid = keyPair.verify(messageHash, signature);
+
+                const resultDiv = document.getElementById('verifyResult');
+                resultDiv.textContent = isValid ? 'Firma Valida!' : 'Firma Non Valida!';
+                resultDiv.className = `result ${isValid ? 'success' : 'failure'}`;
+            } catch (error) {
+                alert('Errore durante la verifica: ' + error.message);
+            }
+        }
+
+        // Event Listeners per i pulsanti
+        document.getElementById('generatePrivateKey').addEventListener('click', generatePrivateKey);
+        document.getElementById('generateMessageHash').addEventListener('click', generateMessageHash);
+        document.getElementById('generateSignature').addEventListener('click', generateSignature);
+        document.getElementById('generatePublicKey').addEventListener('click', generatePublicKey);
+        document.getElementById('verifySignature').addEventListener('click', verifySignature);
+    </script>
+
+    <!-- Link a Bootstrap JS (opzionale) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

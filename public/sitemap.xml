@@ -5,6 +5,18 @@
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/1_introduzione/index.html</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/1_conoscere/3_fiscalita/1_introduzione/index.html</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/index.html</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.html</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url>
@@ -13,12 +25,20 @@
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/2_custodire_bitcoin/index.html</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/index.html</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/1_conoscere/3_fiscalita/index.html</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html</loc>

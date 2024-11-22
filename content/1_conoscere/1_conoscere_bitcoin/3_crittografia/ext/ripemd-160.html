@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcolo SHA-256</title>
+    <title>Calcolo RIPEMD-160</title>
     <!-- Link a Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> <!-- CryptoJS -->
     <style>
         body {
             background-color: #343a40;
@@ -35,34 +36,37 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="text-center mb-4">Algoritmo SHA-256</h2>
+        <h2 class="text-center mb-4">Calcolo RIPEMD-160</h2>
         <div class="mb-3">
-            <label for="inputText" class="form-label">Inserisci il testo:</label>
+            <div class="mb-3 d-flex justify-content-between">
+            <button class="btn btn-primary" id="generateHash">Genera Hash Casuale</button>
+        </div>
             <input type="text" id="inputText" class="form-control" placeholder="Inserisci qui il testo">
         </div>
+        
         <div class="mb-3">
-            <label for="outputHash" class="form-label">Hash SHA-256:</label>
+            <label for="outputHash" class="form-label">Hash RIPEMD-160:</label>
             <textarea id="outputHash" class="form-control" rows="2" readonly placeholder="L'hash apparirà qui"></textarea>
         </div>
     </div>
 
     <script>
-        async function calculateSHA256(text) {
-            const encoder = new TextEncoder();
-            const data = encoder.encode(text);
-
-            // Calcola l'hash SHA-256
-            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-            const hashArray = Array.from(new Uint8Array(hashBuffer));
-            const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-
-            // Mostra il risultato
-            document.getElementById('outputHash').value = hashHex;
+        // Funzione per calcolare l'hash RIPEMD-160
+        function calculateRIPEMD160(text) {
+            const hash = CryptoJS.RIPEMD160(text).toString();
+            document.getElementById('outputHash').value = hash;
         }
 
-        // Aggiungi un event listener all'input di testo per calcolare l'hash ad ogni modifica
+        // Event listener per l'input di testo
         document.getElementById('inputText').addEventListener('input', (event) => {
-            calculateSHA256(event.target.value);
+            calculateRIPEMD160(event.target.value);
+        });
+
+        // Genera un hash casuale (esadecimale) e lo inserisce come input
+        document.getElementById('generateHash').addEventListener('click', () => {
+            const randomHex = CryptoJS.lib.WordArray.random(32).toString(); // Genera 32 byte casuali
+            document.getElementById('inputText').value = randomHex;
+            calculateRIPEMD160(randomHex);
         });
     </script>
 

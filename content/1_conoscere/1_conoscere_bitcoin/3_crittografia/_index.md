@@ -67,6 +67,8 @@ Quando applichiamo RIPEMD-160, otteniamo un hash finale di 160 bit, come segue:
 
 Questo risultato rappresenta l'indirizzo Bitcoin, un identificatore unico e compatto per la chiave pubblica.
 
+{{% button href="" style="blue" %}}Demo interattiva:{{% /button %}} [Algoritmo RIPEMD-160](ext/ripemd-160.html)
+
 ### Algoritmo ECDSA
  
 L’algoritmo **ECDSA** (Elliptic Curve Digital Signature Algorithm) è un sistema crittografico basato su curve ellittiche utilizzato per generare e verificare firme digitali. In Bitcoin, ECDSA svolge un ruolo fondamentale: consente di firmare le transazioni con la chiave privata e permette a chiunque di verificare l’autenticità della firma utilizzando la chiave pubblica senza rivelare la chiave privata.
@@ -82,3 +84,5 @@ L'ECDSA è considerato sicuro ed efficiente per diversi motivi:
 - **Efficienza**: ECDSA richiede meno dati e calcoli rispetto ad altri algoritmi di firma come RSA, rendendolo ideale per Bitcoin.
 
 Grazie a questi fattori, ECDSA consente a Bitcoin di garantire transazioni sicure, verificabili e completamente indipendenti da terze parti, assicurando che solo chi possiede la chiave privata possa autorizzare movimenti sui propri fondi.
+
+{{% button href="" style="blue" %}}Demo interattiva:{{% /button %}} [Algoritmo ECDSA](ext/ecdsa-sign-verify.html)
