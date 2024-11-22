@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d4292c700585ab39",
+        "id": "07bc1574db6bfba3",
         "type": "tabs",
         "children": [
           {
-            "id": "138bc51720df3a35",
+            "id": "20333e5dd0761a98",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png"
+                "file": "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "system_about_ipv4"
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ]
@@ -171,25 +173,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "138bc51720df3a35",
+  "active": "20333e5dd0761a98",
   "lastOpenFiles": [
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png",
+    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_server_electrum.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
+    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_server_electrum.png",
+    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general_mempool.png",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general_mempool.png",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png",
+    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen14.png",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen01.png",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/HP_EliteDesk_800_G4_35W_miniPC.png",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/Acemagic_S1_N95_miniPC.png",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
-    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png",
-    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png",
-    "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png",
     "public/1_conoscere/2_privacy_e_sicurezza/index.xml",
     "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.xml",
     "public/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.xml",

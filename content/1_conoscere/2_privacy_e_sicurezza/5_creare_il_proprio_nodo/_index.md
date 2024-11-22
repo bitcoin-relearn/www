@@ -191,15 +191,65 @@ L'accesso al nodo tramite protocollo SSH è **OPZIONALE**, ma si rivela particol
 
 # Utilizzo del Wallet con il proprio Nodo
 
-### Installazione Sparrow Wallet
+### Installazione Sparrow Wallet (OPZIONALE)
+
+**Sparrow Wallet** è un portafoglio Bitcoin avanzato progettato per offrire sicurezza, privacy e controllo totale sui propri fondi. È un software open source, pensato sia per utenti esperti sia per coloro che vogliono approfondire il funzionamento di Bitcoin, con un'interfaccia intuitiva e strumenti potenti per la gestione delle transazioni.
+
+Se Sparrow è già installato sul vostro PC, si può saltare questo paragrafo. Altrimenti:
+
+32) Scaricare **Sparow Desktop** Wallet da questo [link](https://sparrowwallet.com/download/), scegliendo la versione adatta al sistema operativo del PC su cui effettuare l'installazione. Indipendentemente dal sistema operativo, consiglio la versione "Standalone".
+
+33) Installare l'applicazione appena scaricata (la procedura dipende dal sistema operativo e dalla versione scelta, ma non si distingue dalla normale procedura di installazione di una qualunque applicazione) ed avviarla.
 
 ### Configurazione Sparrow Wallet
 
-### Creazione/Importazione Wallet
+Finalmente ora possiamo configurare Sparrow Wallet affinchè sia in grado di operare con il nostro nodo. In particolare, dobbiamo inserire su Sparrow le interfacce (i canali tramite i quali Sparrow potrà comunicare con il nodo) esposte da "Electrs" e "Mempool".
 
-### Collegamento del Ledger a Sparrow Wallet
+Partiamo da "**Mempool**":
 
-Se ci troviamo in ambiente Linux Mint 22, per poter collegare con successo il Ledger Nano S Plus a Sparrow Wallet è necessario installare dei componenti che non sono inclusi di default nel sistema operativo.
+34) Aprire l'interfaccia web del proprio nodo (sul nodo stesso o tramite il browser di un qualunque altro PC) e, dal men+ di sinistra, cliccare su "Services". Poi cliccare su "Mempool" e infine su "Interfaces".
+
+35) Copiare l'indirizzo riportato alla voce "Tor Address".
+
+36) Avviare Sparrow Wallet e cliccare su "File" --> "Preferences". Si aprirà questa finestra:
+
+	![targets](img/sparrow_preferences_general.png)
+
+37) In corrispondenza della voce "Fee rates sources", aprire il menù a tendina e selezionare "Server".
+
+39) In corrispondenza della voce "Block explorer", aprire il menù a tendina e selezionare "Custom". Si aprirà questa finestra, su cui incollare l'indirizzo precedentemente copiato alla voce "Tor Address":
+
+	![targets](img/sparrow_preferences_general_mempool.png)
+
+40) Confermare con OK e, opzionalmente, impostare "Currency" e "Exchange rate source" per visualizzare il proprio saldo su Sparrow.
+
+Ora occupiamoci di "**Electrs**":
+
+41) Aprire l'interfaccia web del proprio nodo (sul nodo stesso o tramite il browser di un qualunque altro PC) e, dal men+ di sinistra, cliccare su "Services". Poi cliccare su "electrs" e infine su "Interfaces".
+
+42) Copiare l'indirizzo riportato alla voce "Tor Address".
+
+43) Avviare Sparrow Wallet e cliccare su "File" --> "Preferences". Si aprirà questa finestra:
+
+	![targets](img/sparrow_preferences_general.png)
+
+44) Cliccare su "Server" e quindi su "Private Electrum". In corrispondenza della voce "URL", incollare l'indirizzo precedentemente copiato alla voce "Tor Address". Infine, cliccare sul pulsante "Test" per verificare che la connessione funzioni correttamente, assicurandosi che la risposta fornita sia positiva, come quella indicata in questa figura:
+
+	![targets](img/sparrow_server_electrum.png)
+
+45) Cliccare su Close e riavviare Sparrow, verificando che all'avvio si colleghi al proprio nodo. Sarà sufficiente fermarsi con il puntatore del mouse sopra al toggle in basso a destra e controllando che sia di colore blu e che dopo poco compaia l'indirizzo (l'interfaccia Tor esposta da *electrs*) del proprio nodo:
+
+	![targets](img/sparrow_connection.png)
+
+46) Se il/i Wallet sono già collegati a Sparrow, la procedura è terminata e da questo momento potrete utilizzare il vostro nodo per qualunque operazione. Complimenti per aver raggiunto questo risultato! Ora siete a pieno titolo i custodi dei vostri bitcoin.
+
+### Creazione/Importazione Wallet (OPZIONALE)
+
+Se è la prima volta che utilizzate Sparrow Wallet o se vi accingete solo ora a collegare il/i vostro/i Wallet su Sparrow, in funzione del wallet che possedete, dovete effettuare il collegamento a Sparrow seguendo le istruzioni fornite dal produttore del vostro Wallet.
+
+### Collegamento del Ledger a Sparrow Wallet (OPZIONALE)
+
+Se volete collegare un wallet "Ledger" e vi trovate in ambiente Linux (nel mio caso Mint 22), per poter collegare con successo il Ledger a Sparrow Wallet potrebbe essere necessario installare dei componenti che non sono inclusi di default nel sistema operativo.
 Aprire il terminale (CTRL+ALT+T) ed inserire i seguenti comandi:
 
 ```bash
@@ -211,4 +261,6 @@ sudo add-apt-repository universe
 ```bash
 sudo apt install libfuse2
 ```
-### Transare tramite il proprio nodo
+### Transare tramite il proprio nodo (OPZIONALE)
+
+Ora che siete pronti per operare, valutate di effettuare una transazione (o transazione di *consolidamento*) per avere la certezza che tutto funzioni e per godere di un'iniezione di autostima!
