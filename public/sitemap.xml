@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/3_operare/1_acquisto/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/1_conoscere/index.html</loc>
-    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/3_operare/2_detenzione/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/2_approfondire/1_entropia/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/3_operare/3_movimentazione/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/3_operare/4_vendita/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/1_introduzione/index.html</loc>
@@ -17,12 +41,20 @@
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.html</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
-  </url>
-  <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/1_introduzione/index.html</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/4_strumenti/definizioni/index.html</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/2_approfondire/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/2_approfondire/2_blockchain/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/2_custodire_bitcoin/index.html</loc>
@@ -37,6 +69,18 @@
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>//localhost:1313/4_strumenti/fonti_fondamentali/index.html</loc>
+    <lastmod>2024-10-11T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/2_approfondire/3_mining_e_pow/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/3_operare/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/1_conoscere/3_fiscalita/index.html</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
@@ -47,6 +91,10 @@
   <url>
     <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/4_strumenti/index.html</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.html</loc>
@@ -61,8 +109,16 @@
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url>
   <url>
+    <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/6_transazioni/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>//localhost:1313/1_conoscere/1_conoscere_bitcoin/7_wallet/index.html</loc>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>//localhost:1313/index.html</loc>
-    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>//localhost:1313/categories/index.html</loc>

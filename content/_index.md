@@ -5,7 +5,7 @@ title = "Home"
 
 Questo sito è dedicato a Bitcoin.
 
-Non è scritto da un esperto o da un grande nome del settore, ma da una persona qualunque. Ciò che considero importante sono i contenuti, i concetti, gli strumenti, ed è proprio questo che desidero condividere con te.
+Non è scritto da un esperto o da un grande nome del settore, ma da una persona qualunque. Ciò che considero importante sono i contenuti, i concetti, gli strumenti, ed è proprio questo che desidero condividere qui.
 
 Scrivere di quello che so mi aiuta a riordinare le idee, riuscendo così a focalizzarmi su quello che invece non so e finendo per scoprire ciò di cui ignoravo l’esistenza.
 
@@ -26,4 +26,3 @@ _Mattia_
 		- [Panoramica](https://bitcoin-relearn.github.io/www/1_conoscere/1_conoscere_bitcoin/2_panoramica/index.html)
 		- [Crittografia](https://bitcoin-relearn.github.io/www/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html)
 		- [Chiavi e Indirizzi](https://bitcoin-relearn.github.io/www/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html)
-		- [Firma digitale](https://bitcoin-relearn.github.io/www/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html)

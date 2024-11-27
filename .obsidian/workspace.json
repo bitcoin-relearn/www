@@ -4,67 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "07bc1574db6bfba3",
+        "id": "1a5b2a570d7ee330",
         "type": "tabs",
         "children": [
           {
-            "id": "20333e5dd0761a98",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SiteMap.canvas",
-                "viewState": {
-                  "x": 832.9532537191407,
-                  "y": 632.6768961433003,
-                  "zoom": -0.3977597751852706
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "SiteMap"
-            }
-          },
-          {
-            "id": "ff447b87a98db2af",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SiteMap.canvas",
-                "viewState": {
-                  "x": 718.0422537176132,
-                  "y": 635.6136108864819,
-                  "zoom": -0.3977597751852706
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "SiteMap"
-            }
-          },
-          {
-            "id": "cb1ffc21036e1d66",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SiteMap.canvas",
-                "viewState": {
-                  "x": 771.4488914746458,
-                  "y": 690.035657423914,
-                  "zoom": -0.3977597751852706
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "SiteMap"
-            }
-          },
-          {
-            "id": "eb295afbe5d697f5",
+            "id": "5b1361714762c0cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/2_privacy_e_sicurezza/_index.md",
+                "file": "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -73,12 +22,12 @@
             }
           },
           {
-            "id": "5e07b32faa486d8a",
+            "id": "f3fc7aff8b11779c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/3_fiscalita/_index.md",
+                "file": "content/1_conoscere/1_conoscere_bitcoin/6_transazioni/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -87,12 +36,12 @@
             }
           },
           {
-            "id": "489b9ff7ea831238",
+            "id": "c5d6cbd6681c470d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
+                "file": "content/1_conoscere/1_conoscere_bitcoin/7_wallet/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -101,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 336.5
   },
   "right": {
     "id": "d6304c0513f2ce81",
@@ -253,35 +202,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "489b9ff7ea831238",
+  "active": "c5d6cbd6681c470d",
   "lastOpenFiles": [
-    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/ripemd-160/index.html",
-    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/ripemd-160",
-    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/ecdsa-sign-verify/index.html",
-    "public/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/ecdsa-sign-verify",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/ecdsa-sign-verify.html",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/ext/ripemd-160.html",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
-    "content/1_conoscere/2_privacy_e_sicurezza/1_introduzione/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
+    "content/_index.md",
+    "content/4_strumenti/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
-    "content/1_conoscere/2_privacy_e_sicurezza/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/src/digital_signature_process.png",
+    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
+    "content/2_approfondire/3_Mining_e_PoW/_index.md",
+    "content/2_approfondire/2_blockchain/_index.md",
+    "content/2_approfondire/1_entropia/_index.md",
     "SiteMap.canvas",
+    "content/1_conoscere/1_conoscere_bitcoin/6_transazioni/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/7_wallet/_index.md",
+    "content/3_operare/4_vendita/_index.md",
+    "content/3_operare/3_movimentazione/_index.md",
+    "content/3_operare/2_detenzione/_index.md",
+    "content/3_operare/1_acquisto/_index.md",
     "content/1_conoscere/3_fiscalita/1_introduzione/_index.md",
-    "public/1_conoscere/3_fiscalita/1_introduzione/index.xml",
-    "public/1_conoscere/3_fiscalita/1_introduzione/index.html",
-    "public/1_conoscere/3_fiscalita/1_introduzione",
     "content/1_conoscere/3_fiscalita/_index.md",
-    "content/1_conoscere/3_fiscalita/1_introduzione",
-    "content/1_conoscere/_index.md",
-    "public/1_conoscere/3_fiscalita/index.xml",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
+    "content/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/2_custodire_bitcoin/_index.md",
-    "content/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
-    "themes/hugo-theme-relearn/layouts/partials/initial.md",
+    "content/1_conoscere/2_privacy_e_sicurezza/1_introduzione/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/2_panoramica/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+    "public/1_conoscere/1_conoscere_bitcoin/7_wallet/index.xml",
+    "public/1_conoscere/1_conoscere_bitcoin/7_wallet/index.html",
+    "public/1_conoscere/1_conoscere_bitcoin/7_wallet",
+    "content/1_conoscere/1_conoscere_bitcoin/7_wallet",
+    "content/1_conoscere/1_conoscere_bitcoin/Untitled Folder",
+    "public/1_conoscere/1_conoscere_bitcoin/6_transazioni/index.xml",
+    "public/1_conoscere/1_conoscere_bitcoin/6_transazioni/index.html",
+    "public/1_conoscere/1_conoscere_bitcoin/6_transazioni",
+    "content/1_conoscere/1_conoscere_bitcoin/6_transazioni",
+    "public/2_approfondire/3_mining_e_pow/index.xml",
+    "content/2_approfondire/_index.md",
+    "content/4_strumenti/definizioni/_index.md",
     "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_server_electrum.png",
@@ -290,17 +250,6 @@
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general_mempool.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png",
     "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png",
-    "content/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
-    "content/2_privacy_e_sicurezza/_index.md",
-    "content/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
-    "content/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
-    "README.md",
-    "themes/hugo-theme-relearn/CHANGELOG.md",
-    "themes/hugo-theme-relearn/README.md",
-    "archetypes/default.md",
-    "themes/hugo-theme-relearn/exampleSite/content/tags/the-hidden/_index.pir.md"
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png"
   ]
 }

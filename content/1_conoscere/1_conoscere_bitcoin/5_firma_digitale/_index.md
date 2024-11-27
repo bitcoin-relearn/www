@@ -1,6 +1,6 @@
 +++
 title = 'Firma digitale'
-author = 'me'
+author = 'Mattia'
 date = 2024-11-12
 weight = 5
 draft = true
