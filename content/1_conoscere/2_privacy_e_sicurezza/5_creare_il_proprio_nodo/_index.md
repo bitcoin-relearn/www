@@ -238,15 +238,15 @@ Partiamo da "**Mempool**":
 
 Ora occupiamoci di "**Electrs**":
 
-41) Aprire l'interfaccia web del proprio nodo (sul nodo stesso o tramite il browser di un qualunque altro PC) e, dal men+ di sinistra, cliccare su "Services". Poi cliccare su "electrs" e infine su "Interfaces".
+41) Aprire l'interfaccia web del proprio nodo (sul nodo stesso o tramite il browser di un qualunque altro PC) e, dal menù di sinistra, cliccare su "Services". Poi cliccare su "electrs" e infine su "Properties".
 
-42) Copiare l'indirizzo riportato alla voce "Tor Address".
+42) Copiare l'indirizzo riportato alla voce "Hostname".
 
 43) Avviare Sparrow Wallet e cliccare su "File" --> "Preferences". Si aprirà questa finestra:
 
 	![targets](img/sparrow_preferences_general.png)
 
-44) Cliccare su "Server" e quindi su "Private Electrum". In corrispondenza della voce "URL", incollare l'indirizzo precedentemente copiato alla voce "Tor Address". Infine, cliccare sul pulsante "Test" per verificare che la connessione funzioni correttamente, assicurandosi che la risposta fornita sia positiva, come quella indicata in questa figura:
+44) Cliccare su "Server" e quindi su "Private Electrum". In corrispondenza della voce "URL", incollare l'indirizzo precedentemente copiato alla voce "Hostname". Infine, cliccare sul pulsante "Test" per verificare che la connessione funzioni correttamente, assicurandosi che la risposta fornita sia positiva, come quella indicata in questa figura:
 
 	![targets](img/sparrow_server_electrum.png)
 
