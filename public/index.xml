@@ -6,14 +6,14 @@
     <description>Questo sito è dedicato a Bitcoin.&#xA;Non è scritto da un esperto o da un grande nome del settore, ma da una persona qualunque. Ciò che considero importante sono i contenuti, i concetti, gli strumenti, ed è proprio questo che desidero condividere qui.&#xA;Scrivere di quello che so mi aiuta a riordinare le idee, riuscendo così a focalizzarmi su quello che invece non so e finendo per scoprire ciò di cui ignoravo l’esistenza.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conoscere</title>
       <link>//localhost:1313/1_conoscere/index.html</link>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/1_conoscere/index.html</guid>
-      <description>Indice dei contenuti:&#xA;Conoscere Bitcoin Introduzione Panoramica Crittografia Chiavi e Indirizzi Firma digitale</description>
+      <description>Indice dei contenuti:&#xA;Fondamenti&#xA;Introduzione Panoramica Crittografia Chiavi e Indirizzi Firma digitale Privacy e Sicurezza&#xA;Proteggersi su internet Creare il proprio nodo</description>
     </item>
     <item>
       <title>Approfondire</title>

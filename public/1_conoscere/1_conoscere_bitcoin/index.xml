@@ -3,10 +3,10 @@
   <channel>
     <title>Fondamenti :: Bitcoin Relearn</title>
     <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.html</link>
-    <description>Indice dei contenuti:&#xA;Introduzione Panoramica Crittografia Chiavi e Indirizzi</description>
+    <description>Indice dei contenuti:&#xA;Fondamenti Introduzione Panoramica Crittografia Chiavi e Indirizzi Firma digitale</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduzione</title>
@@ -39,9 +39,9 @@
     <item>
       <title>Firma digitale</title>
       <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html</link>
-      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html</guid>
-      <description>Brief: Questa sezione ti aiuterà a capire cos’è la firma digitale e che ruolo gioca nelle transazioni.&#xA;Con parole semplici Titolo Testo&#xA;Che cosa è la firma digitale? Quando si effettua una transazione di Bitcoin, entra in gioco la firma digitale, che è un meccanismo crittografico che consente alla rete di confermare che chi invia i fondi è effettivamente il legittimo proprietario, proteggendo allo stesso tempo la segretezza della chiave privata.</description>
+      <description>Brief: Questa sezione ti aiuterà a capire cos’è la firma digitale e che ruolo gioca nelle transazioni.&#xA;Con parole semplici Cos’è la firma digitale? La firma digitale è un sistema che serve a dimostrare che sei davvero tu a inviare dei bitcoin, senza che nessuno possa vedere o copiare la tua “chiave segreta” (chiamata chiave privata). È un po’ come firmare una lettera per dimostrare che l’hai scritta tu, ma senza che la tua firma possa essere usata per altri scopi.</description>
     </item>
     <item>
       <title>Transazioni</title>
