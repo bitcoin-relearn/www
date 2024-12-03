@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1a5b2a570d7ee330",
+        "id": "b4e644af63a38f16",
         "type": "tabs",
         "children": [
           {
-            "id": "5b1361714762c0cb",
+            "id": "ac07e54ace0980d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "_index"
             }
-          },
-          {
-            "id": "f3fc7aff8b11779c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/6_transazioni/_index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_index"
-            }
-          },
-          {
-            "id": "c5d6cbd6681c470d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_index"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,15 +173,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5d6cbd6681c470d",
+  "active": "ac07e54ace0980d0",
   "lastOpenFiles": [
+    "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/src/digital_signature_process.png",
+    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/7_wallet/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/_index.md",
     "content/_index.md",
     "content/4_strumenti/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/1_introduzione/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/src/digital_signature_process.png",
     "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
     "content/2_approfondire/3_Mining_e_PoW/_index.md",
     "content/2_approfondire/2_blockchain/_index.md",
@@ -223,7 +195,6 @@
     "content/3_operare/1_acquisto/_index.md",
     "content/1_conoscere/3_fiscalita/1_introduzione/_index.md",
     "content/1_conoscere/3_fiscalita/_index.md",
-    "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/2_custodire_bitcoin/_index.md",
@@ -241,7 +212,6 @@
     "content/1_conoscere/1_conoscere_bitcoin/6_transazioni",
     "public/2_approfondire/3_mining_e_pow/index.xml",
     "content/2_approfondire/_index.md",
-    "content/4_strumenti/definizioni/_index.md",
     "public/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_server_electrum.png",
