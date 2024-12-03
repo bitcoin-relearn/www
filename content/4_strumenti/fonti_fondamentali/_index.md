@@ -25,17 +25,10 @@ draft = false
 
 ## Corsi
 
-- [BITCOIN HISTORY](https://learn.thecryptogateway.it/corsi/bitcoin-history/)
+- [LEGIONARI DI BITCOIN](https://mazzoninews.com/legionari-landing/)
 
-	Questo corso ti porterà alla scoperta del protocollo Bitcoin, affrontando gli eventi cronologici che ne hanno caratterizzato l’evoluzione sotto ogni punto di vista.
+	La sezione Legionari di Bitcoin nasce per darti gli strumenti con cui conquistare le nuove frontiere del denaro. Vi troverai contenuti inediti e riservati ai Legionari sui temi di tecnologia, finanza, economia, denaro e, naturalmente, Bitcoin.
 	
-- [CORSO BASE SU BITCOIN E CRIPTOVALUTE](https://learn.thecryptogateway.it/corsi/corso-base-su-bitcoin-e-criptovalute/)
-
-	Questo corso è dedicato alle basi di Bitcoin, blockchain e criptovalute, per chiunque sia appena arrivato e vuole studiare prima di operare.
-	
-- [CORSO SULLA SICUREZZA](https://learn.thecryptogateway.it/corsi/corso-sulla-sicurezza/)
-
-	Questo corso ti porterà ad apprendere le conoscenze di base per tutelarci dai principali pericoli derivanti dall'operare con le criptovalute.
 
 
 ---

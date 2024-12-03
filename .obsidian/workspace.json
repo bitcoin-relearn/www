@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.md",
+                "file": "content/4_strumenti/fonti_fondamentali/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -175,9 +175,9 @@
   },
   "active": "ac07e54ace0980d0",
   "lastOpenFiles": [
+    "content/_index.md",
     "content/1_conoscere/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/_index.md",
-    "content/_index.md",
     "content/1_conoscere/3_fiscalita/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
