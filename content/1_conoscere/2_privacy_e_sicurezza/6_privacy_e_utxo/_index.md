@@ -20,7 +20,7 @@ Questo meccanismo rende possibile tracciare gli UTXO e seguire il loro percorso 
 
 Il livello di privacy offerto da Bitcoin è, però, molto fragile. Esistono euristiche che consentono a terzi di dedurre informazioni personali analizzando il comportamento delle transazioni. Vediamo alcune delle più comuni.
 
-##### Euristica 1: Tutti gli input di una transazione appartengono allo stesso portafoglio
+#### Euristica 1: Tutti gli input di una transazione appartengono allo stesso portafoglio
 
 Quando una transazione utilizza più input, spesso si presume che provengano dallo stesso portafoglio e che siano destinati ad un'unica entità. Questo è particolarmente vero se gli input combinati servono a coprire un pagamento di importo maggiore rispetto a ciascun input preso singolarmente.
 
@@ -54,7 +54,7 @@ graph LR;
 
 3. Dividi preventivamente gli UTXO in importi che corrispondano a pagamenti comuni, così da evitare la necessità di combinare input.
 
-##### Euristica 2: I resti sono di proprietà di nuovi indirizzi
+#### Euristica 2: I resti sono di proprietà di nuovi indirizzi
 
 Quando si effettua una transazione di importo totale superiore rispetto all'importo da pagare, viene assegnato un indirizzo, che torna sotto il controllo del mittente, contenente il resto. La maggior parte dei wallet moderni genera automaticamente un nuovo indirizzo per conservare il resto, separandolo dall'indirizzo di origine.
 
@@ -87,7 +87,7 @@ graph LR;
 
 2. Effettua periodicamente transazioni di consolidamento, spostando i resti in un unico UTXO senza collegarli direttamente a una transazione specifica.
 
-##### Euristica 3: Le transazioni dei portafogli dei consumatori hanno non più di due output
+#### Euristica 3: Le transazioni dei portafogli dei consumatori hanno non più di due output
 
 Quando un consumatore effettua una transazione di importo totale superiore rispetto all'importo da pagare, si produrrà un indirizzo contenente il pagamento ed un altro indirizzo contenente il resto. Ma come si può distinguere l'uno dall'altro?
 
@@ -139,7 +139,7 @@ graph LR;
 
 2. Utilizza un wallet che offra opzioni avanzate per selezionare manualmente gli input da includere nelle transazioni.
 
-##### Euristica 4: i wallet evitano di spendere output non necessari
+#### Euristica 4: i wallet evitano di spendere output non necessari
 
 Quando si effettua una transazione con più input, se c'è un unico output della transazione con un valore inferiore a uno qualsiasi degli input, allora questo è il resto.
 
