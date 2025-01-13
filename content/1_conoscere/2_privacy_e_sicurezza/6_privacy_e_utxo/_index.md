@@ -3,7 +3,7 @@ title = 'Privacy e UTXO'
 author = 'Mattia'
 date = 2025-01-13
 weight = 6
-draft = true
+draft = false
 +++
 
 ### Privacy e UTXO: come proteggere i tuoi Bitcoin
