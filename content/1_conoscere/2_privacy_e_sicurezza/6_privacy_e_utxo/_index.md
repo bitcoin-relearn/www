@@ -37,7 +37,7 @@ graph LR;
   A(Send: 2,5 BTC) -->|TX_IN| C(1,0 BTC)
   B --> D{Create TX}
   C --> D{Create TX}
-  D --> |Pay| E(Single entity)
+  D --> |TX_OUT| E(Payment)
 ```
 
 **Rischio**: Dal punto di vista di un intercettatore:
