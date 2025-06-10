@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transazioni :: Bitcoin Relearn</title>
+    <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/6_transazioni/index.html</link>
+    <description>Crittografia a chiave pubblica nelle transazioni Bitcoin.&#xA;La crittografia a chiave pubblica è anche nota come crittografia asimmetrica perché utilizza 2 chiavi diverse, una coppia di chiave pubblica e una privata, invece di una per crittografare i dati.&#xA;Crittografia asimmetrica: Chiave pubblica: mostrala alle persone con cui vuoi comunicare. Chiave privata: tienila segreta, solo tu la conosci.&#xA;[IMMAGINE]&#xA;Quando ricevi un messaggio:&#xA;Messaggio del mittente — crittografa con la tua chiave pubblica —&gt; Testo cifrato Testo cifrato — invia a —&gt; Te Te — decrittografa con la tua chiave privata —&gt; Messaggio L’obiettivo generale della crittografia a chiave pubblica è dimostrare di avere un segreto senza doverlo mostrare a nessuno. E il segreto è la tua chiave privata. Non dover condividere la tua chiave privata è uno dei vantaggi di questo tipo di crittografia.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/6_transazioni/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strumenti :: Bitcoin Relearn</title>
+    <link>//localhost:1313/4_strumenti/index.html</link>
+    <description>Indice dei contenuti:&#xA;Strumenti: Definizioni Fonti fondamentali</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/4_strumenti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Definizioni</title>
+      <link>//localhost:1313/4_strumenti/definizioni/index.html</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/4_strumenti/definizioni/index.html</guid>
+      <description>Bitcoin non è una moneta, è un network decentralizzato basato sulla fiducia.</description>
+    </item>
+    <item>
+      <title>Fonti fondamentali</title>
+      <link>//localhost:1313/4_strumenti/fonti_fondamentali/index.html</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/4_strumenti/fonti_fondamentali/index.html</guid>
+      <description>Brief: Questa sezione ti elenca alcuni libri, corsi e strumenti utili alla comprensione del mondo bitcoin. Se ne suggerisce una fruizione nell’ordine con cui vengono proposti e sulla base delle proprie competenze di partenza.&#xA;Libri IL BITCOIN STANDARD&#xA;Racconta l’evoluzione della moneta nel corso del tempo, dagli albori fino ai giorni nostri; permettendo di comprendere meglio l’economia nel suo insieme (e non limitatamente alla nicchia delle criptovalute) e quindi di capire il perchè sia nato Bitcoin ed il suo valore.</description>
+    </item>
+  </channel>
+</rss>

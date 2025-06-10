@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockchain :: Bitcoin Relearn</title>
+    <link>//localhost:1313/2_approfondire/2_blockchain/index.html</link>
+    <description>Come può la blockchain ottenere la decentralizzazione, la sicurezza, l’immutabilità, la trasparenza e tutte le caratteristiche che la rendono unica? Lo scopriamo in questo capitolo del corso base sul mondo crypto, in maniera semplice ma completa, senza trascurare nessuno dei dettagli più importanti.&#xA;# La dipendenza blockchain/criptovalute Criptovalute e blockchain non potrebbero esistere l’una senza l’altra. Se la criptovaluta è l’unità di valore digitale che viene scambiata su un’infrastruttura, la blockchain non è che quest’ultima, per l’appunto. Occorre quindi capire che cos’è, se si vuole capire in fondo la dinamica dell’esistenza, dello spostamento, e del mantenimento delle criptovalute.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/2_approfondire/2_blockchain/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

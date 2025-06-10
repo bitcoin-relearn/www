@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.135.0">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="Brief: Questa sezione ti guiderà nella preparazione di un nodo bitcoin personale e a familiarizzare con le basi del suo funzionamento.
+Con parole semplici Perchè creare il proprio nodo Utilizzare il proprio nodo Bitcoin è fondamentale per chi cerca il massimo livello di autonomia, sicurezza e privacy nell’interazione con la rete Bitcoin.">
+    <meta name="author" content="Mattia">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="//localhost:1313/images/hero.png">
+    <meta name="twitter:title" content="Creare il proprio nodo :: Bitcoin Relearn">
+    <meta name="twitter:description" content="Brief: Questa sezione ti guiderà nella preparazione di un nodo bitcoin personale e a familiarizzare con le basi del suo funzionamento.
+Con parole semplici Perchè creare il proprio nodo Utilizzare il proprio nodo Bitcoin è fondamentale per chi cerca il massimo livello di autonomia, sicurezza e privacy nell’interazione con la rete Bitcoin.">
+    <meta property="og:url" content="//localhost:1313/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html">
+    <meta property="og:site_name" content="Bitcoin Relearn">
+    <meta property="og:title" content="Creare il proprio nodo :: Bitcoin Relearn">
+    <meta property="og:description" content="Brief: Questa sezione ti guiderà nella preparazione di un nodo bitcoin personale e a familiarizzare con le basi del suo funzionamento.
+Con parole semplici Perchè creare il proprio nodo Utilizzare il proprio nodo Bitcoin è fondamentale per chi cerca il massimo livello di autonomia, sicurezza e privacy nell’interazione con la rete Bitcoin.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="//localhost:1313/images/hero.png">
+    <meta itemprop="name" content="Creare il proprio nodo :: Bitcoin Relearn">
+    <meta itemprop="description" content="Brief: Questa sezione ti guiderà nella preparazione di un nodo bitcoin personale e a familiarizzare con le basi del suo funzionamento.
+Con parole semplici Perchè creare il proprio nodo Utilizzare il proprio nodo Bitcoin è fondamentale per chi cerca il massimo livello di autonomia, sicurezza e privacy nell’interazione con la rete Bitcoin.">
+    <meta itemprop="datePublished" content="2024-11-22T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2024-11-22T00:00:00+00:00">
+    <meta itemprop="wordCount" content="1987">
+    <meta itemprop="image" content="//localhost:1313/images/hero.png">
+    <title>Creare il proprio nodo :: Bitcoin Relearn</title>
+    <link href="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.xml" rel="alternate" type="application/rss+xml" title="Creare il proprio nodo :: Bitcoin Relearn">
+    <link href="/images/favicon.svg" rel="icon" type="image/svg+xml">
+    <link href="/css/fontawesome-all.min.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css" rel="stylesheet">
+    <link href="/css/auto-complete.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="/css/fonts.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css" rel="stylesheet"></noscript>
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/theme-relearn-auto.css" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-auto.css" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css" rel="stylesheet">
+    <link href="/css/print.css" rel="stylesheet" media="print">
+    <script src="/js/variant.js"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'relearn-auto', 'relearn-light', 'relearn-dark', 'relearn-bright', 'zen-auto', 'zen-light', 'zen-dark', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li><a href="#perchè-possedere-un-nodo-privato">Perchè possedere un nodo privato</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#scaricare-startos">Scaricare StartOS</a></li>
+        <li><a href="#creare-una-iso-di-startos-per-il-boot">Creare una ISO di StartOS per il boot</a></li>
+        <li><a href="#installare-startos-sul-nodo">Installare StartOS sul Nodo</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#accesso-a-startos-da-rete-lan">Accesso a StartOS da rete LAN</a></li>
+        <li><a href="#installazione-del-certificato">Installazione del certificato</a></li>
+        <li><a href="#predisposizione-accesso-con-ssh-opzionale">Predisposizione accesso con SSH (OPZIONALE)</a></li>
+        <li><a href="#installazione-di-bitcoin-core">Installazione di Bitcoin Core</a></li>
+        <li><a href="#installazione-di-electrs">Installazione di Electrs</a></li>
+        <li><a href="#installazione-di-mempool">Installazione di Mempool</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#installazione-sparrow-wallet-opzionale">Installazione Sparrow Wallet (OPZIONALE)</a></li>
+        <li><a href="#configurazione-sparrow-wallet">Configurazione Sparrow Wallet</a></li>
+        <li><a href="#creazioneimportazione-wallet-opzionale">Creazione/Importazione Wallet (OPZIONALE)</a></li>
+        <li><a href="#collegamento-del-ledger-a-sparrow-wallet-opzionale">Collegamento del Ledger a Sparrow Wallet (OPZIONALE)</a></li>
+        <li><a href="#transare-tramite-il-proprio-nodo-opzionale">Transare tramite il proprio nodo (OPZIONALE)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/1_conoscere/index.html"><span itemprop="name">Conoscere</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/1_conoscere/2_privacy_e_sicurezza/index.html"><span itemprop="name">Privacy e sicurezza</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Creare il proprio nodo</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.html" title="Proteggersi su internet (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/1_conoscere/2_privacy_e_sicurezza/6_privacy_e_utxo/index.html" title="Privacy e UTXO (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="creare-il-proprio-nodo">Creare il proprio nodo</h1>
+
+<div class="box notices cstyle important">
+  <div class="box-label">
+    <i class="fa-fw fas fa-bolt"></i> Brief:
+  </div>
+  <div class="box-content">
+<p>Questa sezione ti guiderà nella preparazione di un nodo bitcoin personale e a familiarizzare con le basi del suo funzionamento.</p>
+  </div>
+</div>
+<div class="expand box notices cstyle tip">
+  <input type="checkbox" id="R-expand-006ed9a240210c7bb88e6812e3cbe991" aria-controls="R-expandcontent-006ed9a240210c7bb88e6812e3cbe991" checked>
+  <label class="expand-label box-label" for="R-expand-006ed9a240210c7bb88e6812e3cbe991">
+    <i class="expander-icon fa-fw fas fa-chevron-down"></i>
+    <i class="expander-icon fa-fw fas fa-chevron-right"></i> <i class="fa-fw fas fa-lightbulb"></i> Con parole semplici
+  </label>
+  <div class="box-spacer"></div>
+  <div id="R-expandcontent-006ed9a240210c7bb88e6812e3cbe991" class="box-content expand-content">
+<p><h5 id="perchè-creare-il-proprio-nodo">Perchè creare il proprio nodo</h5>
+<p>Utilizzare il proprio nodo Bitcoin è fondamentale per chi cerca il massimo livello di <strong>autonomia, sicurezza e privacy</strong> nell&rsquo;interazione con la rete Bitcoin.</p>
+<p>Ecco i motivi principali:</p>
+<ul>
+<li><strong>Verifica indipendente delle transazioni</strong>: Un nodo privato consente di verificare autonomamente che tutte le transazioni e i blocchi rispettino le regole del protocollo Bitcoin, eliminando la necessità di fidarsi di nodi di terze parti.</li>
+<li><strong>Massima privacy</strong>: Con un nodo privato, le richieste per monitorare transazioni o bilanci non vengono inviate a servizi esterni, riducendo il rischio di tracciamento o sorveglianza.</li>
+<li><strong>Partecipazione alla rete</strong>: Contribuire al funzionamento della rete Bitcoin aumenta la sua decentralizzazione e resilienza, rafforzandone la sicurezza complessiva.</li>
+<li><strong>Controllo totale</strong>: Usando il proprio nodo, si ha piena autonomia e controllo sulle interazioni con la rete, come l&rsquo;invio di transazioni o la gestione di portafogli.</li>
+<li><strong>Supporto ai portafogli personali</strong>: Connettere portafogli come Sparrow Wallet, Electrum o hardware wallet al proprio nodo garantisce che i dati siano accurati e verificati direttamente.</li>
+</ul>
+<p>Utilizzare un nodo privato permette di gestire Bitcoin nel modo più sicuro, privato e conforme alla filosofia di decentralizzazione che è alla base della rete.</p>
+  </div>
+</div>
+<h3 id="perchè-possedere-un-nodo-privato">Perchè possedere un nodo privato</h3>
+<p>Operare con Bitcoin tramite un nodo privato ti permette di avere il pieno controllo delle tue transazioni e dei tuoi fondi, proteggendo la tua privacy in modo più efficace rispetto all&rsquo;uso di servizi di terze parti. Con un nodo privato, non dipendi da intermediari per verificare le transazioni, evitando che i tuoi dati personali vengano tracciati o esposti. Inoltre, contribuisci alla sicurezza e alla decentralizzazione della rete Bitcoin, senza affidarti a piattaforme che potrebbero monitorare o censurare le tue attività. In sintesi, un nodo privato ti offre maggiore autonomia, sicurezza e privacy.</p>
+<h1 id="hardware-necessario">Hardware necessario</h1>
+<p>Acquistare un mini PC per creare il proprio nodo Bitcoin è una scelta vantaggiosa poichè sono compatti, silenziosi e richiedono poca energia, il che li rende ideali per un funzionamento continuo senza incidere troppo sui consumi elettrici.</p>
+<p>Sono qui proposte due soluzioni, che ho personalmente provato e che mi sento di consigliare:</p>
+<div class="tab-panel" data-tab-group="7ccc93c9fad965172d0bbbc5c7300ba4">
+  <div class="tab-nav">
+    <div class="tab-nav-title">Mini PC:</div>
+    <button
+      data-tab-item="acemagic-s1-n95"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('7ccc93c9fad965172d0bbbc5c7300ba4','acemagic-s1-n95')"
+    >
+      <span class="tab-nav-text">Acemagic S1 N95</span>
+    </button>
+    <button
+      data-tab-item="hp-elitedesk-800-g3"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('7ccc93c9fad965172d0bbbc5c7300ba4','hp-elitedesk-800-g3')"
+    >
+      <span class="tab-nav-text">HP EliteDesk 800 G3</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="acemagic-s1-n95"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<h3 id="acemagic-s1-n95">Acemagic S1 N95</h3>
+<p>Facilmente reperibile su Amazon o sul <a href="https://acemagic.eu/products/s1-minipc" rel="external" target="_self">sito del produttore</a>. Si consiglia l&rsquo;acquisto separato di un SSD NVMe PCIe3.0 da almeno 2TB, che sarà poi da installare all&rsquo;interno del mini PC.</p>
+<p><a href="#R-image-cddabb32c038902f63008db738b9d429" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/Acemagic_S1_N95_miniPC.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cddabb32c038902f63008db738b9d429"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/Acemagic_S1_N95_miniPC.png"></a></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">CPU</th>
+          <th style="text-align: left">Intel Alder Lake N95 - 1.7GHz</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">RAM</td>
+          <td style="text-align: left">16GB DDR4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SSD</td>
+          <td style="text-align: left">1 slot M.2 NVMe PCIe3.0, 1 slot M.2 SATA</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Power</td>
+          <td style="text-align: left">DC 12V 4A - 48W</td>
+      </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+    <div
+      data-tab-item="hp-elitedesk-800-g3"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<h3 id="hp-elitedesk-800-g3">HP EliteDesk 800 G3</h3>
+<p>Dispositivi ricondizionati sono facilmente reperibili online (Amazon ed Ebay). Si consiglia l&rsquo;acquisto separato di un SSD NVMe PCIe3.0 da almeno 2TB, che sarà poi da installare all&rsquo;interno del mini PC.</p>
+<p><a href="#R-image-888d1871c42489860ec746d91f8ac174" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/HP_EliteDesk_800_G4_35W_miniPC.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-888d1871c42489860ec746d91f8ac174"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/HP_EliteDesk_800_G4_35W_miniPC.png"></a></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">CPU</th>
+          <th style="text-align: left">Intel Core i5 gen6 - 2.4GHz</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">RAM</td>
+          <td style="text-align: left">16GB DDR4</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SSD</td>
+          <td style="text-align: left">1 slot SATA III 2.5&rsquo;&rsquo; 6GB/s, 1 slot M.2 NVMe PCIe3.0</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Power</td>
+          <td style="text-align: left">DC 19.5V 3.33A - 65W</td>
+      </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<h1 id="installazione-startos">Installazione StartOS</h1>
+<h3 id="scaricare-startos">Scaricare StartOS</h3>
+<ol>
+<li>
+<p>Cliccare su questo <a href="https://github.com/Start9Labs/start-os/releases/" rel="external" target="_self">link</a></p>
+</li>
+<li>
+<p>Clicca sull&rsquo;ultima release, taggata come &ldquo;Latest&rdquo;</p>
+<p><a href="#R-image-10885226df11c11fde1521074fa9acd8" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen01.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-10885226df11c11fde1521074fa9acd8"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen01.png"></a></p>
+</li>
+<li>
+<p>Scorrere in fondo alla pagina e cliccare sul file che termina con &ldquo;x86_64.iso&rdquo;</p>
+<p><a href="#R-image-ba800ba5350d8434b6bc05735e253608" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen02.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ba800ba5350d8434b6bc05735e253608"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen02.png"></a></p>
+</li>
+</ol>
+<h3 id="creare-una-iso-di-startos-per-il-boot">Creare una ISO di StartOS per il boot</h3>
+<ol start="4">
+<li>
+<p>Scaricare <a href="https://etcher.balena.io/#download-etcher" rel="external" target="_self">Balena Hetcher</a></p>
+</li>
+<li>
+<p>Scorrere lungo la pagina e cliccare sul file relativo al proprio sistema operativo (il sistema operativo che si usa abitualmente sul proprio PC, <strong>non</strong> il sistema operativo del full node)</p>
+</li>
+<li>
+<p>Collegare una chiavetta USB al proprio PC</p>
+</li>
+<li>
+<p>Avviare Balena Hetcher</p>
+<p><a href="#R-image-6d8183ba8960bc8090b317115de29ac3" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen03.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d8183ba8960bc8090b317115de29ac3"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen03.png"></a></p>
+</li>
+<li>
+<p>Cliccare su &ldquo;Flash from file&rdquo; e selezionare il file di StartOS (con estensione .iso) scaricato precedentemente</p>
+</li>
+<li>
+<p>Cliccare su &ldquo;Select target&rdquo; e selezionare la chiavetta USB (precedentemente collegata al PC)</p>
+</li>
+<li>
+<p>Cliccare su &ldquo;Flash!&rdquo; e attendere il completamento</p>
+</li>
+</ol>
+<h3 id="installare-startos-sul-nodo">Installare StartOS sul Nodo</h3>
+<ol start="11">
+<li>
+<p>Collegare monitor, tastiera, mouse e alimentazione al Nodo ed infine, collagare la chiavetta USB con la ISO di StartOS per il boot</p>
+</li>
+<li>
+<p>Accendere il Nodo e, mentre si avvia (fin dai primi istanti dopo averlo acceso) premere ripetutamente il tasto <!-- raw HTML omitted -->ESC<!-- raw HTML omitted --> (o il tasto <!-- raw HTML omitted -->F4<!-- raw HTML omitted -->, o <!-- raw HTML omitted -->F8<!-- raw HTML omitted -->, in funzione dell&rsquo;hardware utilizzato), fino a quando comparirà la schermata del BIOS</p>
+<p><a href="#R-image-a9152355cf1ad4774c323b46e8a2488b" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen04.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a9152355cf1ad4774c323b46e8a2488b"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen04.png"></a></p>
+</li>
+<li>
+<p>Utilizzando i tasti freccia della tastiera, selezionare la scheda &ldquo;Boot&rdquo; e scorrere fino alla voce &ldquo;Boot Option #1&rdquo;, quindi premere <!-- raw HTML omitted -->INVIO<!-- raw HTML omitted --> e selezionare la chiavetta USB inserita</p>
+</li>
+<li>
+<p>Selezionare la scheda &ldquo;Save &amp; Exit&rdquo;, scorrere su &ldquo;Save Changes and Exit&rdquo; e premere <!-- raw HTML omitted -->INVIO<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>Attendere il riavvio e l&rsquo;inizializzazione dell&rsquo;installazione di StartOS, quindi selezionare l&rsquo;SSD su cui effettuare l&rsquo;installazione</p>
+<p><a href="#R-image-3617dd2edbf079a5689e6ee721bb1afe" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen05.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3617dd2edbf079a5689e6ee721bb1afe"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen05.png"></a></p>
+</li>
+<li>
+<p>Cliccare su &ldquo;Install StartOS&rdquo; e confermare cliccando CONTINUE</p>
+<p><a href="#R-image-45d76e34a169c6be336029fef7962449" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen06.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-45d76e34a169c6be336029fef7962449"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen06.png"></a>
+<a href="#R-image-3f749797f5f3338c617754b22edcbde3" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen07.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3f749797f5f3338c617754b22edcbde3"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen07.png"></a></p>
+</li>
+<li>
+<p>Attendere il completamento dell&rsquo;installazione, quindi rimuovere la chiavetta USB dal Nodo e cliccare su REBOOT</p>
+<p><a href="#R-image-9761e82abea64f9c7191b8017051f528" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen08.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9761e82abea64f9c7191b8017051f528"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen08.png"></a></p>
+</li>
+<li>
+<p>Se tutto è andato a buon fine, comparirà questa schermata. Cliccare su &ldquo;Start Fresh&rdquo; e quindi selezionare l&rsquo;SSD</p>
+<p><a href="#R-image-e8d33f1c58f333cb0f5f7b3386776d2e" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen10.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e8d33f1c58f333cb0f5f7b3386776d2e"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen10.png"></a>
+<a href="#R-image-2266937f85faffc17a87ca85f911565b" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen11.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2266937f85faffc17a87ca85f911565b"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen11.png"></a></p>
+</li>
+<li>
+<p>Inserire una password, ri-scriverla per conferma e quindi cliccare su FINISH.</p>
+<p><a href="#R-image-b4528c8f1411f12dcb88dcfc1f568e97" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen12.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b4528c8f1411f12dcb88dcfc1f568e97"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen12.png"></a></p>
+</li>
+<li>
+<p>Attendere l&rsquo;inizializzazione di StartOS</p>
+<p><a href="#R-image-5b02149e6add83bb518fcfb156558412" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen13.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b02149e6add83bb518fcfb156558412"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen13.png"></a></p>
+</li>
+<li>
+<p>Al termine dell&rsquo;inizializzazione, sarà possibile loggarsi per accedere al proprio nodo</p>
+<p><a href="#R-image-e9d985b17a77c3d01571152a66906192" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen14.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e9d985b17a77c3d01571152a66906192"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen14.png"></a>
+<a href="#R-image-00c9c7ffb7c8495bf003d5ca9c0766ad" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-00c9c7ffb7c8495bf003d5ca9c0766ad"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/screen15.png"></a></p>
+</li>
+</ol>
+<hr>
+<h1 id="configurazione-startos">Configurazione StartOS</h1>
+<h3 id="accesso-a-startos-da-rete-lan">Accesso a StartOS da rete LAN</h3>
+<p>Per poter accedere al nodo tramite un altro PC collegato alla stessa rete del nodo (per esempio tramite la propria WiFi di casa o di ufficio) è necessario conoscere l&rsquo;IP del nodo.</p>
+<ol start="22">
+<li>Dal menù di sinistra, cliccare su &ldquo;System&rdquo;</li>
+</ol>
+<p><a href="#R-image-46634b168abc1ba43b72a7fc07b31a51" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-46634b168abc1ba43b72a7fc07b31a51"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png"></a></p>
+<ol start="23">
+<li>Poi cliccare su &ldquo;About&rdquo;</li>
+</ol>
+<p><a href="#R-image-b16eba566995fd1625db1f31eedc2842" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b16eba566995fd1625db1f31eedc2842"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about_ipv4.png"></a></p>
+<ol start="24">
+<li>Copiare l&rsquo;indirizzo IP che si trova alla voce &ldquo;enp4s0 (IPv4)&rdquo; ed inserirlo come URL nel brower di un qualunque PC collegato alla stessa rete del nodo.</li>
+</ol>
+<h3 id="installazione-del-certificato">Installazione del certificato</h3>
+<p>Provando ad accedere come descritto al paragrafo precedente, si noterà che la connessione non è sicura. Questo perchè bisogna installare il certificato per poter sfruttare la connessione sicura https anzichè http.</p>
+<ol start="25">
+<li>
+<p>Dal menù di sinistra, cliccare su &ldquo;System&rdquo;</p>
+<p><a href="#R-image-d2d110f4123075b8a7aa9723b822af13" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d2d110f4123075b8a7aa9723b822af13"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/system_about.png"></a></p>
+</li>
+<li>
+<p>Poi cliccare su &ldquo;Root CA&rdquo; e quindi su &ldquo;Download Root CA&rdquo;</p>
+</li>
+<li>
+<p>L&rsquo;installazione del certificato dipende dal sistema operativo del PC da cui si vuole accedere al nodo:</p>
+<ol>
+<li>Se ci si trova su sistema operativo Windows, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/windows/ca-windows#ca-windows" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo Linux, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/linux/ca-linux#ca-linux" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo Mac, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/mac/ca-mac#ca-mac" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo Android, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/android/ca-android#ca-android" rel="external" target="_self">guida</a></li>
+<li>Se ci si trova su sistema operativo iOS, seguire questa <a href="https://docs.start9.com/0.3.5.x/device-guides/ios/ca-ios#ca-ios" rel="external" target="_self">guida</a></li>
+</ol>
+</li>
+</ol>
+<h3 id="predisposizione-accesso-con-ssh-opzionale">Predisposizione accesso con SSH (OPZIONALE)</h3>
+<p>L&rsquo;accesso al nodo tramite protocollo SSH è <strong>OPZIONALE</strong>, ma si rivela particolarmente utile in fase di manutenzione; nel caso in cui fosse necessario accedere al nodo per effettuare azioni di diagnostica, interventi correttivi o di ripristino.</p>
+<ol start="28">
+<li>Per configurare l&rsquo;accesso tramite SSH, seguire questa <a href="https://docs.start9.com/0.3.5.x/user-manual/ssh" rel="external" target="_self">guida</a>, in particolare, seguire i paragrafi &ldquo;Creating an SSH Key&rdquo; e &ldquo;Registering an SSH Key&rdquo;</li>
+</ol>
+<h3 id="installazione-di-bitcoin-core">Installazione di Bitcoin Core</h3>
+<p><strong>Bitcoin Core</strong> è il software open-source principale per interagire con la rete Bitcoin. Il software implementa il protocollo Bitcoin e include tutte le funzionalità necessarie per partecipare alla rete. L&rsquo;installazione potrà richiedere anche diversi giorni, poichè la prima volta sarà scaricata l&rsquo;intera blockchain.</p>
+<ol start="29">
+<li>Dal menù di sinistra, cliccare su &ldquo;Marketplace&rdquo; e poi cercare &ldquo;Bitcoin Core&rdquo; nella barra di &ldquo;Search&rdquo;. Quindi, cliccare sull&rsquo;app &ldquo;Bitcoin Core&rdquo; e seguire le semplici informazioni a video per l&rsquo;installazione.</li>
+</ol>
+<h3 id="installazione-di-electrs">Installazione di Electrs</h3>
+<p><strong>Electrs</strong> è un software open-source progettato per migliorare l&rsquo;accesso ai dati della blockchain Bitcoin tramite il protocollo <strong>Electrum</strong>, un protocollo leggero per interrogare i nodi Bitcoin. Con Electrs, è possibile collegare e gestire tutti i tuoi Wallets; inoltre, si ha la certezza che le richieste di transazioni e bilanci vengono elaborate dal tuo nodo, proteggendo la tua privacy e impedendo a terzi di monitorare le tue attività. L&rsquo;installazione potrà richiedere anche diversi giorni, poichè la prima volta sarà indicizzata tutta la blockchain.</p>
+<ol start="30">
+<li>Dal menù di sinistra, cliccare su &ldquo;Marketplace&rdquo; e poi cercare &ldquo;Electrs&rdquo; nella barra di &ldquo;Search&rdquo;. Quindi, cliccare sull&rsquo;app &ldquo;Electrs&rdquo; e seguire le semplici informazioni a video per l&rsquo;installazione.</li>
+</ol>
+<h3 id="installazione-di-mempool">Installazione di Mempool</h3>
+<p><strong>Mempool</strong> è uno strumento open-source che offre una visualizzazione in tempo reale dello stato della mempool di Bitcoin e altre informazioni sulla rete. È un esploratore blockchain, progettato per fornire un modo intuitivo e visivamente accattivante per monitorare le transazioni, i blocchi, e l&rsquo;attività della rete Bitcoin. L&rsquo;installazione locale offre il massimo livello di privacy, poiché i dati vengono direttamente dal proprio nodo senza bisogno di accedere a server di terze parti.</p>
+<ol start="31">
+<li>Dal menù di sinistra, cliccare su &ldquo;Marketplace&rdquo; e poi cercare &ldquo;Mempool&rdquo; nella barra di &ldquo;Search&rdquo;. Quindi, cliccare sull&rsquo;app &ldquo;Mempool&rdquo; e seguire le semplici informazioni a video per l&rsquo;installazione.</li>
+</ol>
+<hr>
+<h1 id="utilizzo-del-wallet-con-il-proprio-nodo">Utilizzo del Wallet con il proprio Nodo</h1>
+<h3 id="installazione-sparrow-wallet-opzionale">Installazione Sparrow Wallet (OPZIONALE)</h3>
+<p><strong>Sparrow Wallet</strong> è un portafoglio Bitcoin avanzato progettato per offrire sicurezza, privacy e controllo totale sui propri fondi. È un software open source, pensato sia per utenti esperti sia per coloro che vogliono approfondire il funzionamento di Bitcoin, con un&rsquo;interfaccia intuitiva e strumenti potenti per la gestione delle transazioni.</p>
+<p>Se Sparrow è già installato sul vostro PC, si può saltare questo paragrafo. Altrimenti:</p>
+<ol start="32">
+<li>
+<p>Scaricare <strong>Sparow Desktop</strong> Wallet da questo <a href="https://sparrowwallet.com/download/" rel="external" target="_self">link</a>, scegliendo la versione adatta al sistema operativo del PC su cui effettuare l&rsquo;installazione. Indipendentemente dal sistema operativo, consiglio la versione &ldquo;Standalone&rdquo;.</p>
+</li>
+<li>
+<p>Installare l&rsquo;applicazione appena scaricata (la procedura dipende dal sistema operativo e dalla versione scelta, ma non si distingue dalla normale procedura di installazione di una qualunque applicazione) ed avviarla.</p>
+</li>
+</ol>
+<h3 id="configurazione-sparrow-wallet">Configurazione Sparrow Wallet</h3>
+<p>Finalmente ora possiamo configurare Sparrow Wallet affinchè sia in grado di operare con il nostro nodo. In particolare, dobbiamo inserire su Sparrow le interfacce (i canali tramite i quali Sparrow potrà comunicare con il nodo) esposte da &ldquo;Electrs&rdquo; e &ldquo;Mempool&rdquo;.</p>
+<p>Partiamo da &ldquo;<strong>Mempool</strong>&rdquo;:</p>
+<ol start="34">
+<li>
+<p>Aprire l&rsquo;interfaccia web del proprio nodo (sul nodo stesso o tramite il browser di un qualunque altro PC) e, dal men+ di sinistra, cliccare su &ldquo;Services&rdquo;. Poi cliccare su &ldquo;Mempool&rdquo; e infine su &ldquo;Interfaces&rdquo;.</p>
+</li>
+<li>
+<p>Copiare l&rsquo;indirizzo riportato alla voce &ldquo;Tor Address&rdquo;.</p>
+</li>
+<li>
+<p>Avviare Sparrow Wallet e cliccare su &ldquo;File&rdquo; &ndash;&gt; &ldquo;Preferences&rdquo;. Si aprirà questa finestra:</p>
+<p><a href="#R-image-08ab7a8b1a180c35b140f6a5990386db" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-08ab7a8b1a180c35b140f6a5990386db"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png"></a></p>
+</li>
+<li>
+<p>In corrispondenza della voce &ldquo;Fee rates sources&rdquo;, aprire il menù a tendina e selezionare &ldquo;Server&rdquo;.</p>
+</li>
+<li>
+<p>In corrispondenza della voce &ldquo;Block explorer&rdquo;, aprire il menù a tendina e selezionare &ldquo;Custom&rdquo;. Si aprirà questa finestra, su cui incollare l&rsquo;indirizzo precedentemente copiato alla voce &ldquo;Tor Address&rdquo;:</p>
+<p><a href="#R-image-bc6844ce5842a51405993f508b5cd66f" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general_mempool.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bc6844ce5842a51405993f508b5cd66f"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general_mempool.png"></a></p>
+</li>
+<li>
+<p>Confermare con OK e, opzionalmente, impostare &ldquo;Currency&rdquo; e &ldquo;Exchange rate source&rdquo; per visualizzare il proprio saldo su Sparrow.</p>
+</li>
+</ol>
+<p>Ora occupiamoci di &ldquo;<strong>Electrs</strong>&rdquo;:</p>
+<ol start="41">
+<li>
+<p>Aprire l&rsquo;interfaccia web del proprio nodo (sul nodo stesso o tramite il browser di un qualunque altro PC) e, dal menù di sinistra, cliccare su &ldquo;Services&rdquo;. Poi cliccare su &ldquo;electrs&rdquo; e infine su &ldquo;Properties&rdquo;.</p>
+</li>
+<li>
+<p>Copiare l&rsquo;indirizzo riportato alla voce &ldquo;Hostname&rdquo;.</p>
+</li>
+<li>
+<p>Avviare Sparrow Wallet e cliccare su &ldquo;File&rdquo; &ndash;&gt; &ldquo;Preferences&rdquo;. Si aprirà questa finestra:</p>
+<p><a href="#R-image-e16ff141f99be74df8dbe1e197ab6580" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e16ff141f99be74df8dbe1e197ab6580"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_preferences_general.png"></a></p>
+</li>
+<li>
+<p>Cliccare su &ldquo;Server&rdquo; e quindi su &ldquo;Private Electrum&rdquo;. In corrispondenza della voce &ldquo;URL&rdquo;, incollare l&rsquo;indirizzo precedentemente copiato alla voce &ldquo;Hostname&rdquo;. Infine, cliccare sul pulsante &ldquo;Test&rdquo; per verificare che la connessione funzioni correttamente, assicurandosi che la risposta fornita sia positiva, come quella indicata in questa figura:</p>
+<p><a href="#R-image-5c02f8e93c952cc353dcbe13597fbcd1" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_server_electrum.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5c02f8e93c952cc353dcbe13597fbcd1"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_server_electrum.png"></a></p>
+</li>
+<li>
+<p>Cliccare su Close e riavviare Sparrow, verificando che all&rsquo;avvio si colleghi al proprio nodo. Sarà sufficiente fermarsi con il puntatore del mouse sopra al toggle in basso a destra e controllando che sia di colore blu e che dopo poco compaia l&rsquo;indirizzo (l&rsquo;interfaccia Tor esposta da <em>electrs</em>) del proprio nodo:</p>
+<p><a href="#R-image-9a9af84c98bef0667079ab36d1301392" class="lightbox-link"><img alt="targets" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9a9af84c98bef0667079ab36d1301392"><img alt="targets" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/img/sparrow_connection.png"></a></p>
+</li>
+<li>
+<p>Se il/i Wallet sono già collegati a Sparrow, la procedura è terminata e da questo momento potrete utilizzare il vostro nodo per qualunque operazione. Complimenti per aver raggiunto questo risultato! Ora siete a pieno titolo i custodi dei vostri bitcoin.</p>
+</li>
+</ol>
+<h3 id="creazioneimportazione-wallet-opzionale">Creazione/Importazione Wallet (OPZIONALE)</h3>
+<p>Se è la prima volta che utilizzate Sparrow Wallet o se vi accingete solo ora a collegare il/i vostro/i Wallet su Sparrow, in funzione del wallet che possedete, dovete effettuare il collegamento a Sparrow seguendo le istruzioni fornite dal produttore del vostro Wallet.</p>
+<h3 id="collegamento-del-ledger-a-sparrow-wallet-opzionale">Collegamento del Ledger a Sparrow Wallet (OPZIONALE)</h3>
+<p>Se volete collegare un wallet &ldquo;Ledger&rdquo; e vi trovate in ambiente Linux (nel mio caso Mint 22), per poter collegare con successo il Ledger a Sparrow Wallet potrebbe essere necessario installare dei componenti che non sono inclusi di default nel sistema operativo.
+Aprire il terminale (CTRL+ALT+T) ed inserire i seguenti comandi:</p>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash</span></span></code></pre></div>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo add-apt-repository universe</span></span></code></pre></div>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install libfuse2</span></span></code></pre></div>
+<h3 id="transare-tramite-il-proprio-nodo-opzionale">Transare tramite il proprio nodo (OPZIONALE)</h3>
+<p>Ora che siete pronti per operare, valutate di effettuare una transazione (o transazione di <em>consolidamento</em>) per avere la certezza che tutto funzioni e per godere di un&rsquo;iniezione di autostima!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <style>
+            #R-logo svg,
+            #R-logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#R-logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 1.875rem;
+              font-weight: 300;
+              margin-top: -.8125rem;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 14.125rem;
+              white-space: nowrap;
+            }
+            a#R-logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #R-logo svg {
+              margin-bottom: -1.25rem;
+              margin-inline-start: -1.47rem;
+              margin-inline-end: .5rem;
+              width: 40.5%;
+            }
+            @media only all and (max-width: 59.999rem) {
+              a#R-logo {
+                font-size: 1.5625rem;
+                margin-top: -.1875rem;
+              }
+              #R-logo svg {
+                margin-bottom: -.75rem;
+                margin-inline-start: -1.47rem;
+                margin-inline-end: .5rem;
+              }
+            }
+          </style>
+          <a id="R-logo" href="/index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(50.196081%,50.196081%,50.196081%);fill-opacity:1;" d="M 27.714844 18.738281 C 9.648438 29.117188 9.554688 29.210938 9.554688 30.71875 C 9.554688 32.230469 9.601562 32.277344 11.449219 32.277344 C 12.492188 32.277344 13.347656 32.085938 13.347656 31.851562 C 13.347656 31.425781 18.753906 28.21875 39.238281 16.519531 L 46.351562 12.417969 L 62.714844 21.851562 L 79.027344 31.238281 L 79.167969 50.34375 C 79.265625 67.132812 79.167969 69.492188 78.554688 70.011719 C 77.460938 70.90625 77.226562 70.53125 72.199219 61.519531 L 67.882812 53.738281 L 69.542969 53.597656 L 71.203125 53.453125 L 71.203125 36.519531 L 47.113281 36.519531 L 48.34375 39.351562 L 49.625 42.179688 L 65.511719 42.179688 L 65.511719 47.324219 L 56.785156 47.464844 C 45.261719 47.652344 46.070312 46.945312 46.070312 57.179688 C 46.070312 64.066406 46.164062 64.871094 46.828125 64.632812 C 47.253906 64.492188 48.535156 64.351562 49.671875 64.351562 L 51.757812 64.351562 L 51.757812 53.453125 L 56.550781 53.597656 L 61.386719 53.738281 L 67.789062 65.058594 C 71.296875 71.285156 74.238281 76.472656 74.332031 76.566406 C 74.378906 76.664062 76.417969 75.625 78.742188 74.257812 L 83.058594 71.804688 L 83.058594 29.164062 L 64.847656 18.691406 C 54.84375 12.9375 46.496094 8.21875 46.257812 8.21875 C 46.019531 8.265625 37.675781 12.984375 27.714844 18.738281 Z M 27.714844 18.738281 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,64.705884%,0%);fill-opacity:1;" d="M 9.554688 54.164062 L 9.554688 71.804688 L 27.242188 81.945312 C 36.917969 87.558594 45.261719 92.277344 45.738281 92.417969 C 46.257812 92.652344 47.964844 91.945312 50.714844 90.390625 C 62.953125 83.40625 70.066406 79.304688 70.398438 78.972656 C 70.777344 78.644531 70.492188 77.890625 69.351562 76.191406 C 69.019531 75.671875 66.601562 76.898438 57.6875 82.039062 C 47.585938 87.84375 46.304688 88.453125 45.355469 87.9375 C 44.789062 87.605469 37.390625 83.40625 28.949219 78.550781 L 13.585938 69.730469 L 13.441406 55.953125 L 13.347656 42.179688 L 25.34375 42.179688 C 36.394531 42.179688 37.4375 42.230469 38.148438 43.03125 C 39.050781 44.019531 39.144531 45.152344 38.480469 46.472656 C 38.007812 47.324219 37.390625 47.371094 28.757812 47.371094 L 19.511719 47.371094 L 19.511719 64.585938 L 28.902344 64.539062 C 39.429688 64.492188 40.804688 64.164062 43.128906 61.144531 C 44.789062 58.972656 45.121094 54.539062 43.792969 52.085938 C 42.890625 50.484375 42.890625 50.4375 43.839844 48.925781 C 44.550781 47.699219 44.695312 46.710938 44.550781 44.398438 C 44.363281 40.859375 43.128906 38.832031 40.378906 37.464844 C 38.625 36.566406 37.53125 36.519531 24.015625 36.519531 L 9.554688 36.519531 Z M 38.195312 54.257812 C 38.625 54.632812 38.957031 55.484375 38.957031 56.097656 C 38.957031 58.359375 37.960938 58.691406 31.320312 58.691406 L 25.203125 58.691406 L 25.203125 53.503906 L 31.320312 53.503906 C 36.253906 53.503906 37.628906 53.644531 38.195312 54.257812 Z M 38.195312 54.257812 "/>
+            </svg>Bitcoin
+          </a>
+
+        </div>
+
+        <search>
+          <div class="searchbox default-animation">
+            <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js" defer></script>
+        <script src="/js/lunr/lunr.min.js" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js" defer></script>
+        <script src="/js/lunr/lunr.en.min.js" defer></script>
+        <script src="/js/search.js" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/1_conoscere/index.html" class="parent "><input type="checkbox" id="R-section-8a3c098c259aba1266319f12aecc5bc6" aria-controls="R-subsections-8a3c098c259aba1266319f12aecc5bc6" checked><label for="R-section-8a3c098c259aba1266319f12aecc5bc6"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Conoscere</span></label><a class="padding" href="/1_conoscere/index.html">Conoscere</a><ul id="R-subsections-8a3c098c259aba1266319f12aecc5bc6" class="morespace collapsible-menu">
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/index.html" class="alwaysopen"><input type="checkbox" id="R-section-0381074eefd9f2ce8ef850bfa415fd4b" aria-controls="R-subsections-0381074eefd9f2ce8ef850bfa415fd4b" checked><label for="R-section-0381074eefd9f2ce8ef850bfa415fd4b"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Fondamenti</span></label><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/index.html">Fondamenti</a><ul id="R-subsections-0381074eefd9f2ce8ef850bfa415fd4b" class="morespace collapsible-menu">
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/2_introduzione/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/2_introduzione/index.html">Introduzione</a></li>
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/3_crittografia/index.html">Crittografia</a></li>
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/index.html">Chiavi e indirizzi</a></li>
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/index.html">Firma digitale</a></li>
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/6_transazioni/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/6_transazioni/index.html">Transazioni</a></li>
+          <li data-nav-id="/1_conoscere/1_conoscere_bitcoin/7_wallet/index.html" class=""><a class="padding" href="/1_conoscere/1_conoscere_bitcoin/7_wallet/index.html">Wallet</a></li></ul></li>
+          <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/index.html" class="parent alwaysopen"><input type="checkbox" id="R-section-9df347ea19638e0a59ce55a02e4a4434" aria-controls="R-subsections-9df347ea19638e0a59ce55a02e4a4434" checked><label for="R-section-9df347ea19638e0a59ce55a02e4a4434"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Privacy e sicurezza</span></label><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/index.html">Privacy e sicurezza</a><ul id="R-subsections-9df347ea19638e0a59ce55a02e4a4434" class="morespace collapsible-menu">
+          <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/1_introduzione/index.html" class=""><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/1_introduzione/index.html">Introduzione</a></li>
+          <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/index.html" class=""><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/3_rimanere_anonimi/index.html">Rimanere anonimi</a></li>
+          <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/2_custodire_bitcoin/index.html" class=""><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/2_custodire_bitcoin/index.html">Custodire i propri bitcoin</a></li>
+          <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.html" class=""><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/4_proteggere_il_proprio_pc/index.html">Proteggersi su internet</a></li>
+          <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html" class="active"><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html">Creare il proprio nodo</a></li>
+          <li data-nav-id="/1_conoscere/2_privacy_e_sicurezza/6_privacy_e_utxo/index.html" class=""><a class="padding" href="/1_conoscere/2_privacy_e_sicurezza/6_privacy_e_utxo/index.html">Privacy e UTXO</a></li></ul></li>
+          <li data-nav-id="/1_conoscere/3_fiscalita/index.html" class="alwaysopen"><input type="checkbox" id="R-section-cf1154c51d6c55bc4569089990c45503" aria-controls="R-subsections-cf1154c51d6c55bc4569089990c45503" checked><label for="R-section-cf1154c51d6c55bc4569089990c45503"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Fiscalità</span></label><a class="padding" href="/1_conoscere/3_fiscalita/index.html">Fiscalità</a><ul id="R-subsections-cf1154c51d6c55bc4569089990c45503" class="morespace collapsible-menu">
+          <li data-nav-id="/1_conoscere/3_fiscalita/1_introduzione/index.html" class=""><a class="padding" href="/1_conoscere/3_fiscalita/1_introduzione/index.html">Introduzione</a></li></ul></li></ul></li>
+          <li data-nav-id="/2_approfondire/index.html" class=""><input type="checkbox" id="R-section-65df17f469baf66186484760d130ad67" aria-controls="R-subsections-65df17f469baf66186484760d130ad67"><label for="R-section-65df17f469baf66186484760d130ad67"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Approfondire</span></label><a class="padding" href="/2_approfondire/index.html">Approfondire</a><ul id="R-subsections-65df17f469baf66186484760d130ad67" class="morespace collapsible-menu">
+          <li data-nav-id="/2_approfondire/1_entropia/index.html" class=""><a class="padding" href="/2_approfondire/1_entropia/index.html">Entropia</a></li>
+          <li data-nav-id="/2_approfondire/2_blockchain/index.html" class=""><a class="padding" href="/2_approfondire/2_blockchain/index.html">Blockchain</a></li>
+          <li data-nav-id="/2_approfondire/3_mining_e_pow/index.html" class=""><a class="padding" href="/2_approfondire/3_mining_e_pow/index.html">Mining &amp; PoW</a></li></ul></li>
+          <li data-nav-id="/3_operare/index.html" class=""><input type="checkbox" id="R-section-cdf8619cbaf382f70f166daa953f2f5e" aria-controls="R-subsections-cdf8619cbaf382f70f166daa953f2f5e"><label for="R-section-cdf8619cbaf382f70f166daa953f2f5e"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Operare</span></label><a class="padding" href="/3_operare/index.html">Operare</a><ul id="R-subsections-cdf8619cbaf382f70f166daa953f2f5e" class="morespace collapsible-menu">
+          <li data-nav-id="/3_operare/1_acquisto/index.html" class=""><a class="padding" href="/3_operare/1_acquisto/index.html">Acquisto</a></li>
+          <li data-nav-id="/3_operare/2_detenzione/index.html" class=""><a class="padding" href="/3_operare/2_detenzione/index.html">Detenzione</a></li>
+          <li data-nav-id="/3_operare/3_movimentazione/index.html" class=""><a class="padding" href="/3_operare/3_movimentazione/index.html">Movimentazione</a></li>
+          <li data-nav-id="/3_operare/4_vendita/index.html" class=""><a class="padding" href="/3_operare/4_vendita/index.html">Vendita</a></li></ul></li>
+          <li data-nav-id="/4_strumenti/index.html" class=""><input type="checkbox" id="R-section-b9340801b08f15c9b8f3002c95563aac" aria-controls="R-subsections-b9340801b08f15c9b8f3002c95563aac"><label for="R-section-b9340801b08f15c9b8f3002c95563aac"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Strumenti</span></label><a class="padding" href="/4_strumenti/index.html">Strumenti</a><ul id="R-subsections-b9340801b08f15c9b8f3002c95563aac" class="morespace collapsible-menu">
+          <li data-nav-id="/4_strumenti/definizioni/index.html" class=""><a class="padding" href="/4_strumenti/definizioni/index.html">Definizioni</a></li>
+          <li data-nav-id="/4_strumenti/fonti_fondamentali/index.html" class=""><a class="padding" href="/4_strumenti/fonti_fondamentali/index.html">Fonti fondamentali</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch showVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                      <option id="R-select-variant-relearn-light" value="relearn-light">Relearn Light</option>
+                      <option id="R-select-variant-relearn-dark" value="relearn-dark">Relearn Dark</option>
+                      <option id="R-select-variant-relearn-bright" value="relearn-bright">Relearn Bright</option>
+                      <option id="R-select-variant-zen-auto" value="zen-auto">Zen Light/Dark</option>
+                      <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                      <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                      <option id="R-select-variant-retro-auto" value="retro-auto">Retro Learn/Neon</option>
+                      <option id="R-select-variant-neon" value="neon">Neon</option>
+                      <option id="R-select-variant-learn" value="learn">Learn</option>
+                      <option id="R-select-variant-blue" value="blue">Blue</option>
+                      <option id="R-select-variant-green" value="green">Green</option>
+                      <option id="R-select-variant-red" value="red">Red</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href= "https://www.bitcoin-relearn.com" title="love" target="_blank"><i class="fas fa-heart"></i></a></p>
+
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js" defer></script>
+    <script src="/js/perfect-scrollbar.min.js" defer></script>
+    <script src="/js/theme.js" defer></script>
+  </body>
+</html>

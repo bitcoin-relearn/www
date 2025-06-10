@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mining &amp; PoW :: Bitcoin Relearn</title>
+    <link>//localhost:1313/2_approfondire/3_mining_e_pow/index.html</link>
+    <description># Mining e PoW: come funzionano Sì, sappiamo che con il mining si producono i Bitcoin. Ci sono dei computer, delle “macchine” che consumano energia per mantenere sicura la blockchain, ma esattamente questo processo come funziona? E come viene eseguito?&#xA;Lo scopriremo in questa nuova sezione del nostro corso base su Bitcoin, crypto, blockchain e dintorni, dove andiamo a indagare quelli che vengono chiamati “algoritmi di consenso”. Quegli algoritmi che permettono ai vari nodi che fanno parte di un network (da cui dipende la sicurezza della blockchain) di “andare d’accordo” su un’unica soluzione, e soprattutto di rimanere sempre integri, evitando che vengano attaccati e manomessi d’attori malevoli.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/2_approfondire/3_mining_e_pow/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

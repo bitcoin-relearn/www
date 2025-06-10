@@ -15,6 +15,9 @@ draft = false
 
 	Racconta l’evoluzione della moneta nel corso del tempo, dagli albori fino ai giorni nostri; permettendo di comprendere meglio l’economia nel suo insieme (e non limitatamente alla nicchia delle criptovalute) e quindi di capire il perchè sia nato Bitcoin ed il suo valore.
 
+- [VILLAGGIO BITCOIN](https://shop.usemlab.com/home/144-villaggio-bitcoin.html)
+
+	Racconta con il giusto grado di approfondimento le questioni tecniche, gli eventi storici, i dubbi legittimi, le curiosità inevitabili, i temi delicati quali la privacy e libertà, ma anche importanti riflessioni sui possibili cambiamenti socio-politico ed economici legati alla presenza di Bitcoin.
 
 - [MASTERING BITCOIN](src/Mastering_Bitcoin_IT.pdf)
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>//localhost:1313/1_conoscere/1_conoscere_bitcoin/1_premessa/index.html</link>
+    <description>Benvenuti Bitcoin è una moneta elettronica. Per comprenderlo a fondo è quindi essenziale conoscere i principi base dell’economia e della finanza. È altrettanto cruciale capire cosa sia realmente la moneta ed il ruolo centrale che ha sempre rivestito nelle civiltà di ogni epoca.&#xA;Tuttavia, ho creato questo sito con l’obiettivo di divulgare esclusivamente gli aspetti tecnici delle tecnologie alla base di Bitcoin. Non tratterò temi di economia o finanza tradizionale, ma nella sezione dedicata alle [[content/4_strumenti/fonti_fondamentali/_index|fonti fondamentali]] ho raccolto alcuni riferimenti che considero indispensabili per costruire autonomamente solide basi personali.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/1_conoscere/1_conoscere_bitcoin/1_premessa/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
