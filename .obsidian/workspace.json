@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1_conoscere/1_conoscere_bitcoin/1_premessa/_index.md",
+                "file": "content/1_conoscere/1_conoscere_bitcoin/7_wallet/_index.md",
                 "mode": "source",
                 "source": false
               },
@@ -191,16 +191,17 @@
   },
   "active": "c26b0b318be72706",
   "lastOpenFiles": [
+    "content/1_conoscere/1_conoscere_bitcoin/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/6_transazioni/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
+    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/2_introduzione/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/1_premessa/_index.md",
     "content/1_conoscere/2_privacy_e_sicurezza/5_creare_il_proprio_nodo/_index.md",
     "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/src/digital_signature_process.png",
-    "content/1_conoscere/1_conoscere_bitcoin/4_chiavi_e_indirizzi/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/5_firma_digitale/_index.md",
     "content/1_conoscere/_index.md",
     "content/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/6_transazioni/_index.md",
-    "content/1_conoscere/1_conoscere_bitcoin/3_crittografia/_index.md",
     "content/4_strumenti/fonti_fondamentali/_index.md",
     "content/4_strumenti/fonti_fondamentali/src/Mastering_Bitcoin_IT.pdf",
     "content/1_conoscere/1_conoscere_bitcoin/2_introduzione/src/bitcoin_it.pdf",
@@ -236,7 +237,6 @@
     "content/2_approfondire/1_entropia/_index.md",
     "content/2_approfondire/2_blockchain/_index.md",
     "content/2_approfondire/3_Mining_e_PoW/_index.md",
-    "content/2_approfondire/_index.md",
     "SiteMap.canvas"
   ]
 }
