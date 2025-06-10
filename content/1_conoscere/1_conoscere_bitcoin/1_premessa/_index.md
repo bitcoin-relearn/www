@@ -1,4 +1,10 @@
-
++++
+title = 'Premessa'
+author = 'Mattia'
+date = 2024-10-30
+weight = 1
+draft = false
++++
 ### Benvenuti
 
 Bitcoin è una moneta elettronica. Per comprenderlo a fondo è quindi essenziale conoscere i principi base dell'economia e della finanza. È altrettanto cruciale capire cosa sia realmente la moneta ed il ruolo centrale che ha sempre rivestito nelle civiltà di ogni epoca.
