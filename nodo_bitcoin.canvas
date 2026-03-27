@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"1588602f671d622a","type":"text","text":"BITCOIN CORE","x":-100,"y":-80,"width":250,"height":60,"color":"2"},
+		{"id":"ddc466a1aab3a659","type":"text","text":"Core Lightning\n(CLN)","x":120,"y":120,"width":250,"height":60,"color":"3"},
+		{"id":"3282f7101399ef08","type":"text","text":"LND\n(loop, LIT, pool)","x":120,"y":240,"width":250,"height":60,"color":"3"},
+		{"id":"ac38c0d309341f6e","type":"text","text":"NBXplorer","x":-295,"y":120,"width":250,"height":60,"color":"4"},
+		{"id":"e90ce8e791327c07","type":"text","text":"BTCPayServer","x":-295,"y":240,"width":250,"height":60,"color":"4"},
+		{"id":"c5a6401bf380534e","type":"text","text":"Sparrow Wallet\n(hot wallet)","x":-780,"y":-80,"width":250,"height":60,"color":"5"},
+		{"id":"f6d296b672f4917d","type":"text","text":"Hardware Wallet\n(for cold storage)","x":-780,"y":40,"width":250,"height":60,"color":"5"},
+		{"id":"d4744c44ebb54fc9","type":"text","text":"Fulcrum\n(Electrum Server)","x":-460,"y":-80,"width":250,"height":60,"color":"5"},
+		{"id":"2e353917d939059f","type":"text","text":"Samourai Wallet\nDojo","x":280,"y":-80,"width":250,"height":60,"color":"1"},
+		{"id":"fd8526d68efcceb8","type":"text","text":"Whirpool-cli &\nWhirpool-gui","x":585,"y":-200,"width":250,"height":60,"color":"1"},
+		{"id":"7da9d3b2bcd6d643","type":"text","text":"Samourai Wallet","x":280,"y":-320,"width":250,"height":60,"color":"1"},
+		{"id":"aa496a4f311e2a87","type":"text","text":"mempool.space\nBlock Explorer","x":-100,"y":-320,"width":250,"height":60,"color":"6"},
+		{"id":"8a53c1dc0779fcb6","type":"text","text":"Zeus Wallet","x":460,"y":240,"width":250,"height":60,"color":"3"},
+		{"id":"263b8f6b3e0940ce","type":"text","text":"ThunderHub","x":460,"y":320,"width":250,"height":60,"color":"3"},
+		{"id":"d3c23508e1336b56","type":"text","text":"Ride The Lightning\n(RTL)","x":460,"y":160,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"661c3fa25cf22d10","fromNode":"c5a6401bf380534e","fromSide":"bottom","toNode":"f6d296b672f4917d","toSide":"top","color":"5"},
+		{"id":"a6b5852f7943a33e","fromNode":"c5a6401bf380534e","fromSide":"right","toNode":"d4744c44ebb54fc9","toSide":"left","color":"5"},
+		{"id":"5d27be4dcc25b365","fromNode":"1588602f671d622a","fromSide":"left","toNode":"d4744c44ebb54fc9","toSide":"right","color":"2"},
+		{"id":"21a437e1bd3838f6","fromNode":"1588602f671d622a","fromSide":"top","toNode":"aa496a4f311e2a87","toSide":"bottom","color":"2"},
+		{"id":"d4d0ac261346e26f","fromNode":"d4744c44ebb54fc9","fromSide":"top","toNode":"aa496a4f311e2a87","toSide":"left","color":"6"},
+		{"id":"d421e04aeb08adb2","fromNode":"1588602f671d622a","fromSide":"bottom","toNode":"ac38c0d309341f6e","toSide":"top","color":"2"},
+		{"id":"d307028d324e83cc","fromNode":"ac38c0d309341f6e","fromSide":"bottom","toNode":"e90ce8e791327c07","toSide":"top","color":"4"},
+		{"id":"33fc603e831d56dc","fromNode":"1588602f671d622a","fromSide":"bottom","toNode":"ddc466a1aab3a659","toSide":"top","color":"2"},
+		{"id":"796edec05d5588b6","fromNode":"e90ce8e791327c07","fromSide":"right","toNode":"ddc466a1aab3a659","toSide":"left","color":"4"},
+		{"id":"dc7a4c2fe64d1ac3","fromNode":"ddc466a1aab3a659","fromSide":"bottom","toNode":"3282f7101399ef08","toSide":"top","color":"3"},
+		{"id":"67384efb3da41ce4","fromNode":"3282f7101399ef08","fromSide":"right","toNode":"d3c23508e1336b56","toSide":"left","color":"3"},
+		{"id":"db94965935dc574f","fromNode":"3282f7101399ef08","fromSide":"right","toNode":"8a53c1dc0779fcb6","toSide":"left","color":"3"},
+		{"id":"2a43a4569e9bef40","fromNode":"3282f7101399ef08","fromSide":"right","toNode":"263b8f6b3e0940ce","toSide":"left","color":"3"},
+		{"id":"ebc037963d713a4e","fromNode":"1588602f671d622a","fromSide":"right","toNode":"2e353917d939059f","toSide":"left","color":"2"},
+		{"id":"14ea1b32db710466","fromNode":"7da9d3b2bcd6d643","fromSide":"bottom","toNode":"2e353917d939059f","toSide":"top","color":"1"},
+		{"id":"c306ece1348752ac","fromNode":"2e353917d939059f","fromSide":"right","toNode":"fd8526d68efcceb8","toSide":"bottom","color":"1"},
+		{"id":"8909f2beda0f801d","fromNode":"fd8526d68efcceb8","fromSide":"top","toNode":"7da9d3b2bcd6d643","toSide":"right","color":"1"}
+	]
+}
